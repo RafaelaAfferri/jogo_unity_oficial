@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 1d1e7ff52602cbb47a1f7dcba1feae42
+=======
+guid: 40bed2c106c264672b6cb8962d1774b1
+>>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4542303220997213405
+    second: A4 - Floors_0
+  - first:
+      213: 8112079552760912296
+    second: A4 - Floors_1
+  - first:
+      213: 4054519480873507531
+    second: A4 - Floors_2
+  - first:
+      213: 3331720982161270576
+    second: A4 - Floors_3
+  - first:
+      213: 4423781522329097461
+    second: A4 - Floors_4
+  - first:
+      213: -8879009669701313563
+    second: A4 - Floors_5
+  - first:
+      213: 8228169138189286245
+    second: A4 - Floors_6
+  - first:
+      213: -2399124294225450003
+    second: A4 - Floors_7
+  - first:
+      213: -1777483943915404827
+    second: A4 - Floors_8
+  - first:
+      213: -3408845842212565835
+    second: A4 - Floors_9
+  - first:
+      213: 3659829616700139465
+    second: A4 - Floors_10
+  - first:
+      213: -2342285866018110524
+    second: A4 - Floors_11
+  - first:
+      213: 4032917160068954471
+    second: A4 - Floors_12
+  - first:
+      213: -4278839082349963968
+    second: A4 - Floors_13
+  - first:
+      213: -4184743883445994034
+    second: A4 - Floors_14
+  - first:
+      213: -9201458311738823682
+    second: A4 - Floors_15
+  - first:
+      213: 6807557563290033345
+    second: A4 - Floors_16
+  - first:
+      213: 4673808828886199115
+    second: A4 - Floors_17
+  - first:
+      213: -6736704076283359445
+    second: A4 - Floors_18
+  - first:
+      213: -8400876710812499546
+    second: A4 - Floors_19
+  - first:
+      213: -2003135502902161849
+    second: A4 - Floors_20
+  - first:
+      213: -5277476636278825897
+    second: A4 - Floors_21
+  - first:
+      213: 6646404470149539735
+    second: A4 - Floors_22
+  - first:
+      213: -2228829509087774794
+    second: A4 - Floors_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+<<<<<<< HEAD
+=======
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+>>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A4 - Floors_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1199
+        width: 577
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcc6ad96b0890f30800000000000000
+      internalID: 4542303220997213405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_1
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1199
+        width: 578
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a91604af55e39070800000000000000
+      internalID: 8112079552760912296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_2
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1199
+        width: 578
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcadd507cfb844830800000000000000
+      internalID: 4054519480873507531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_3
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1199
+        width: 577
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0372070c496ac3e20800000000000000
+      internalID: 3331720982161270576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959
+        width: 577
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4dc5a3bdd646d30800000000000000
+      internalID: 4423781522329097461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_5
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 959
+        width: 578
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebd1389fbb67c480800000000000000
+      internalID: -8879009669701313563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_6
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 959
+        width: 578
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bba998c34503270800000000000000
+      internalID: 8228169138189286245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_7
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 959
+        width: 577
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debaeae5a2994bed0800000000000000
+      internalID: -2399124294225450003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 719
+        width: 577
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e146f045cb1557e0800000000000000
+      internalID: -1777483943915404827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_9
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 719
+        width: 578
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc4ad074c851b0d0800000000000000
+      internalID: -3408845842212565835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_10
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 719
+        width: 578
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7add155a35ac230800000000000000
+      internalID: 3659829616700139465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_11
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 719
+        width: 577
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c382913a678e7fd0800000000000000
+      internalID: -2342285866018110524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 577
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769bc7e2accc7f730800000000000000
+      internalID: 4032917160068954471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_13
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 479
+        width: 578
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045d87d56828e94c0800000000000000
+      internalID: -4278839082349963968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_14
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 479
+        width: 578
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd76371c9dcce5c0800000000000000
+      internalID: -4184743883445994034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_15
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 479
+        width: 577
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbed39ba6add4080800000000000000
+      internalID: -9201458311738823682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 577
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc1deb298d497e50800000000000000
+      internalID: 6807557563290033345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_17
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 239
+        width: 578
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ba8d1fd54bcd040800000000000000
+      internalID: 4673808828886199115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_18
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 239
+        width: 578
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f4430d55b6282a0800000000000000
+      internalID: -6736704076283359445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_19
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 239
+        width: 577
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a14b2a24271a6b80800000000000000
+      internalID: -8400876710812499546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 577
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e0b888fde6334e0800000000000000
+      internalID: -2003135502902161849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_21
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 578
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c5d28e5f2a2c6b0800000000000000
+      internalID: -5277476636278825897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_22
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 0
+        width: 578
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797e4d4c6a5cc3c50800000000000000
+      internalID: 6646404470149539735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A4 - Floors_23
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 0
+        width: 577
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b73aedce5b9111e0800000000000000
+      internalID: -2228829509087774794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+<<<<<<< HEAD
+    nameFileIdTable:
+      A4 - Floors_0: 4542303220997213405
+      A4 - Floors_1: 8112079552760912296
+      A4 - Floors_10: 3659829616700139465
+      A4 - Floors_11: -2342285866018110524
+      A4 - Floors_12: 4032917160068954471
+      A4 - Floors_13: -4278839082349963968
+      A4 - Floors_14: -4184743883445994034
+      A4 - Floors_15: -9201458311738823682
+      A4 - Floors_16: 6807557563290033345
+      A4 - Floors_17: 4673808828886199115
+      A4 - Floors_18: -6736704076283359445
+      A4 - Floors_19: -8400876710812499546
+      A4 - Floors_2: 4054519480873507531
+      A4 - Floors_20: -2003135502902161849
+      A4 - Floors_21: -5277476636278825897
+      A4 - Floors_22: 6646404470149539735
+      A4 - Floors_23: -2228829509087774794
+      A4 - Floors_3: 3331720982161270576
+      A4 - Floors_4: 4423781522329097461
+      A4 - Floors_5: -8879009669701313563
+      A4 - Floors_6: 8228169138189286245
+      A4 - Floors_7: -2399124294225450003
+      A4 - Floors_8: -1777483943915404827
+      A4 - Floors_9: -3408845842212565835
+=======
+    nameFileIdTable: {}
+>>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

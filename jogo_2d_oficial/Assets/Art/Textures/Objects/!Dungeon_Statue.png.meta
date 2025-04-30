@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 1d629e73f6ef19a44bff7347b4f84f1b
+=======
+guid: 0c922167c1e72449fa656080f18df289
+>>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8317018295550728476
+    second: '!Dungeon_Statue_0'
+  - first:
+      213: -3159126817846950220
+    second: '!Dungeon_Statue_1'
+  - first:
+      213: -3588341980015257879
+    second: '!Dungeon_Statue_2'
+  - first:
+      213: -51026999632678040
+    second: '!Dungeon_Statue_3'
+  - first:
+      213: 5079441898264490543
+    second: '!Dungeon_Statue_4'
+  - first:
+      213: 3295478213563687797
+    second: '!Dungeon_Statue_5'
+  - first:
+      213: -6745485697641654377
+    second: '!Dungeon_Statue_6'
+  - first:
+      213: -4851928148730146981
+    second: '!Dungeon_Statue_7'
+  - first:
+      213: -5208786918338469441
+    second: '!Dungeon_Statue_8'
+  - first:
+      213: 8070559213565805639
+    second: '!Dungeon_Statue_9'
+  - first:
+      213: 5810079704060039940
+    second: '!Dungeon_Statue_10'
+  - first:
+      213: 8821408426641668043
+    second: '!Dungeon_Statue_11'
+  - first:
+      213: 7960273749952908105
+    second: '!Dungeon_Statue_12'
+  - first:
+      213: -7365870924466698310
+    second: '!Dungeon_Statue_13'
+  - first:
+      213: 292370896520782513
+    second: '!Dungeon_Statue_14'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+<<<<<<< HEAD
+=======
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+>>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1377
+        width: 101
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19d9b8031cfb6370800000000000000
+      internalID: 8317018295550728476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_1'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1377
+        width: 195
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b682dd95e68824d0800000000000000
+      internalID: -3159126817846950220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_2'
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1377
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e691942bf5a33ec0800000000000000
+      internalID: -3588341980015257879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_3'
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1378
+        width: 45
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863b0f4d637ba4ff0800000000000000
+      internalID: -51026999632678040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_4'
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1399
+        width: 45
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f227a439e7dcd7640800000000000000
+      internalID: 5079441898264490543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_5'
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1343
+        width: 45
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573a08c99f3ebbd20800000000000000
+      internalID: 3295478213563687797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_6'
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1343
+        width: 45
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79757924f783362a0800000000000000
+      internalID: -6745485697641654377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_7'
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1360
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f883b2e0d7aacb0800000000000000
+      internalID: -4851928148730146981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_8'
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1360
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1ebb525eba6b7b0800000000000000
+      internalID: -5208786918338469441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_9'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1199
+        width: 101
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744885758d2600070800000000000000
+      internalID: 8070559213565805639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_10'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1199
+        width: 195
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403943d25bc81a050800000000000000
+      internalID: 5810079704060039940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_11'
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1199
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc73d98e930fb6a70800000000000000
+      internalID: 8821408426641668043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_12'
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1151
+        width: 194
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b4fccdcc2987e60800000000000000
+      internalID: 7960273749952908105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_13'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959
+        width: 194
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7c8c59b6b27c990800000000000000
+      internalID: -7365870924466698310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Dungeon_Statue_14'
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 959
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2a8c508c5be0400800000000000000
+      internalID: 292370896520782513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+<<<<<<< HEAD
+    nameFileIdTable:
+      '!Dungeon_Statue_0': 8317018295550728476
+      '!Dungeon_Statue_1': -3159126817846950220
+      '!Dungeon_Statue_10': 5810079704060039940
+      '!Dungeon_Statue_11': 8821408426641668043
+      '!Dungeon_Statue_12': 7960273749952908105
+      '!Dungeon_Statue_13': -7365870924466698310
+      '!Dungeon_Statue_14': 292370896520782513
+      '!Dungeon_Statue_2': -3588341980015257879
+      '!Dungeon_Statue_3': -51026999632678040
+      '!Dungeon_Statue_4': 5079441898264490543
+      '!Dungeon_Statue_5': 3295478213563687797
+      '!Dungeon_Statue_6': -6745485697641654377
+      '!Dungeon_Statue_7': -4851928148730146981
+      '!Dungeon_Statue_8': -5208786918338469441
+      '!Dungeon_Statue_9': 8070559213565805639
+=======
+    nameFileIdTable: {}
+>>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

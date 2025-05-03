@@ -3,7 +3,6 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -42,3 +41,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 3107291765
+    locked: 0
+  - name: WalkInFront
+    uniqueID: 1866010609
+    locked: 0
+  - name: Collider
+    uniqueID: 2707384751
+    locked: 0
+  - name: Player
+    uniqueID: 1338206541
+    locked: 0
+  - name: WalkBehind
+    uniqueID: 255059551
+    locked: 0
+  - name: Decor
+    uniqueID: 2220727267
+    locked: 0
+  m_RenderingLayers:
+  - Default

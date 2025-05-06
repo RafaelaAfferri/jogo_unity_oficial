@@ -6,9 +6,6 @@ using TMPro;
 public class Puzzle_Sala1 : MonoBehaviour
 {
     public TMP_InputField  inputResposta;
-    public Button botaoEnviar;
-
-    public Button botaoFechar;
 
     public Button botaoAvancar;
     public TextMeshProUGUI textoFeedback;
@@ -41,7 +38,7 @@ public class Puzzle_Sala1 : MonoBehaviour
     }
     
     public void Avancar(){
-
+        painelPuzzle.SetActive(false); // Desativa o painel do puzzle
         // Aqui você pode adicionar a lógica para avançar no jogo, como abrir uma porta ou trocar de cena
         Debug.Log("Avançar para a próxima parte do jogo!");
     }

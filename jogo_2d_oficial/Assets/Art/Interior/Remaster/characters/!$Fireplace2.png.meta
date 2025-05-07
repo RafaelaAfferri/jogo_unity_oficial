@@ -1,26 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 38487464c9b12664aac29ac5850bc570
-=======
-guid: 9b7bdbf9dfb9446bfa05aa81fff18dca
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 3458563247748133257
-    second: '!$Fireplace2_0'
-  - first:
-      213: 4768848483325440427
-    second: '!$Fireplace2_1'
-  - first:
-      213: -5134623783897311221
-    second: '!$Fireplace2_2'
-  - first:
-      213: -3664988049108400981
-    second: '!$Fireplace2_3'
-  - first:
-      213: 8137796268924358652
-    second: '!$Fireplace2_4'
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -67,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -82,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,27 +94,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
-=======
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -148,20 +113,20 @@ TextureImporter:
       name: '!$Fireplace2_0'
       rect:
         serializedVersion: 2
-        x: 40
-        y: 476
-        width: 64
-        height: 100
+        x: 41
+        y: 477
+        width: 62
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 981bf3713f84fff20800000000000000
-      internalID: 3458563247748133257
+      spriteID: dd4384e8f2aa87b40a7eb10ac32c6183
+      internalID: 1888268570
       vertices: []
       indices: 
       edges: []
@@ -170,20 +135,20 @@ TextureImporter:
       name: '!$Fireplace2_1'
       rect:
         serializedVersion: 2
-        x: 184
-        y: 476
-        width: 64
-        height: 100
+        x: 185
+        y: 477
+        width: 62
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ba1f54cdd6a5e2240800000000000000
-      internalID: 4768848483325440427
+      spriteID: c3cb97cf5574a144097e46a7fc194d26
+      internalID: 791335902
       vertices: []
       indices: 
       edges: []
@@ -192,20 +157,20 @@ TextureImporter:
       name: '!$Fireplace2_2'
       rect:
         serializedVersion: 2
-        x: 328
-        y: 476
-        width: 64
-        height: 100
+        x: 329
+        y: 477
+        width: 62
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0857897fd62eb8b0800000000000000
-      internalID: -5134623783897311221
+      spriteID: 4ec5334930766f54ba7df2633a44b7a4
+      internalID: -2122227421
       vertices: []
       indices: 
       edges: []
@@ -215,19 +180,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 188
-        width: 432
-        height: 245
+        y: 181
+        width: 125
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ba487da89c8532dc0800000000000000
-      internalID: -3664988049108400981
+      spriteID: 270779db5b310084b9587f35086ed830
+      internalID: 460669384
       vertices: []
       indices: 
       edges: []
@@ -237,19 +202,173 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 432
-        height: 145
+        y: 38
+        width: 127
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cff4cb737924fe070800000000000000
-      internalID: 8137796268924358652
+      spriteID: eb48602182207b64d883cc8acbf10700
+      internalID: -595983805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Fireplace2_5'
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 27
+        width: 120
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deef50726e1569845b2b033781797f46
+      internalID: -1820359290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Fireplace2_6'
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 31
+        width: 112
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb0feb4a15cd9840961e0ec7e400d4d
+      internalID: 948031123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Fireplace2_7'
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 319
+        width: 78
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c79f247acbb2c948b6ee7d1ef093e72
+      internalID: -1044874314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Fireplace2_8'
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 322
+        width: 83
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b4da937a22c6c42b6f9aeb900cae5b
+      internalID: 1092450756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Fireplace2_9'
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 177
+        width: 77
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72fd6ffb9f9ba04fb8271e1fea32104
+      internalID: -2000904371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Fireplace2_10'
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 327
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcabd80d3bd0ab2448836b14f4466706
+      internalID: -784364117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Fireplace2_11'
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 178
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1ee715fd161ac46815d4096a6dc2af
+      internalID: 393632588
       vertices: []
       indices: 
       edges: []
@@ -258,7 +377,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 526e6d1f14c2f124eb17bc33b8c0fcea
     internalID: 0
     vertices: []
     indices: 
@@ -267,16 +386,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable:
-      '!$Fireplace2_0': 3458563247748133257
-      '!$Fireplace2_1': 4768848483325440427
-      '!$Fireplace2_2': -5134623783897311221
-      '!$Fireplace2_3': -3664988049108400981
-      '!$Fireplace2_4': 8137796268924358652
-=======
-    nameFileIdTable: {}
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+      '!$Fireplace2_0': 1888268570
+      '!$Fireplace2_1': 791335902
+      '!$Fireplace2_10': -784364117
+      '!$Fireplace2_11': 393632588
+      '!$Fireplace2_2': -2122227421
+      '!$Fireplace2_3': 460669384
+      '!$Fireplace2_4': -595983805
+      '!$Fireplace2_5': -1820359290
+      '!$Fireplace2_6': 948031123
+      '!$Fireplace2_7': -1044874314
+      '!$Fireplace2_8': 1092450756
+      '!$Fireplace2_9': -2000904371
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

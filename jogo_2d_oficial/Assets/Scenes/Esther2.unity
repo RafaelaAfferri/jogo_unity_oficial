@@ -4882,38 +4882,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1476188501732031137, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1476188501732031137, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1476188501732031137, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1866010609
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015069478101091624, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
-      propertyPath: m_FalloffIntensity
-      value: 0.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015069478101091624, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
-      propertyPath: m_PointLightInnerRadius
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428554780045033583, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.466309
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428554780045033583, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.466309
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428554780045033583, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.466309
-      objectReference: {fileID: 0}
     - target: {fileID: 8428554780045033583, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.2751

@@ -52,6 +52,16 @@ public class Puzzle2_sala2 : MonoBehaviour
             textoFeedback.gameObject.SetActive(true);
             botaoAvancar.gameObject.SetActive(true);
         }
+        else if (System.Text.RegularExpressions.Regex.IsMatch(codigoDigitado, @"[a-zA-Z]"))
+        {
+            textoFeedback.text = "A resposta não deve conter letras.";
+            textoFeedback.gameObject.SetActive(true);
+        }
+        else if (codigoDigitado.Length == 6)
+        {
+            textoFeedback.text = "Não parece estar certo...";
+            textoFeedback.gameObject.SetActive(true);
+        }
         else
         {
             textoFeedback.text = "Ainda há números perdidos....";
@@ -68,7 +78,7 @@ public class Puzzle2_sala2 : MonoBehaviour
             campo.text = "";
         }
 
-        
+
     }
 
     public void Avancar()

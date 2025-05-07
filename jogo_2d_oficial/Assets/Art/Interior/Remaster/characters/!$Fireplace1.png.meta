@@ -1,47 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: e31f75c6c88c83d48af6effc49a24cf7
-=======
-guid: 52fe14fd388bd42938a1ba196966bbc5
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -5691609676581566079
-    second: '!$Fireplace1_0'
-  - first:
-      213: 6219348453091562748
-    second: '!$Fireplace1_1'
-  - first:
-      213: -5087567175225099722
-    second: '!$Fireplace1_2'
-  - first:
-      213: 5876760344937862166
-    second: '!$Fireplace1_3'
-  - first:
-      213: 8441341660289478143
-    second: '!$Fireplace1_4'
-  - first:
-      213: 3394560786920022355
-    second: '!$Fireplace1_5'
-  - first:
-      213: -1791462268877311050
-    second: '!$Fireplace1_6'
-  - first:
-      213: 3546347226366330496
-    second: '!$Fireplace1_7'
-  - first:
-      213: -8497084989830033465
-    second: '!$Fireplace1_8'
-  - first:
-      213: 3030880226065726388
-    second: '!$Fireplace1_9'
-  - first:
-      213: -2288638395908641209
-    second: '!$Fireplace1_10'
-  - first:
-      213: -7061858210897085685
-    second: '!$Fireplace1_11'
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -74,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -88,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,27 +94,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
-=======
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -169,20 +113,20 @@ TextureImporter:
       name: '!$Fireplace1_0'
       rect:
         serializedVersion: 2
-        x: 36
-        y: 475
-        width: 71
-        height: 52
+        x: 37
+        y: 476
+        width: 69
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1890e2397275301b0800000000000000
-      internalID: -5691609676581566079
+      spriteID: 15ed1e97245f31b4ba1fc922460a3082
+      internalID: -1521760132
       vertices: []
       indices: 
       edges: []
@@ -191,20 +135,20 @@ TextureImporter:
       name: '!$Fireplace1_1'
       rect:
         serializedVersion: 2
-        x: 180
-        y: 475
-        width: 71
-        height: 52
+        x: 181
+        y: 476
+        width: 69
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf4d5e077709f4650800000000000000
-      internalID: 6219348453091562748
+      spriteID: 7fe32d13abfcc164bb43b54656680113
+      internalID: 795080043
       vertices: []
       indices: 
       edges: []
@@ -213,20 +157,20 @@ TextureImporter:
       name: '!$Fireplace1_2'
       rect:
         serializedVersion: 2
-        x: 324
-        y: 475
-        width: 71
-        height: 52
+        x: 325
+        y: 476
+        width: 69
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63a35c5fb945569b0800000000000000
-      internalID: -5087567175225099722
+      spriteID: dfb98bcae767d044e904ac483959e78e
+      internalID: -1285489230
       vertices: []
       indices: 
       edges: []
@@ -235,20 +179,20 @@ TextureImporter:
       name: '!$Fireplace1_3'
       rect:
         serializedVersion: 2
-        x: 25
-        y: 310
-        width: 92
-        height: 92
+        x: 26
+        y: 311
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6149f16b5627e8150800000000000000
-      internalID: 5876760344937862166
+      spriteID: 6657820a96db89a4593877f5de60edb3
+      internalID: -232186405
       vertices: []
       indices: 
       edges: []
@@ -257,20 +201,20 @@ TextureImporter:
       name: '!$Fireplace1_4'
       rect:
         serializedVersion: 2
-        x: 169
-        y: 310
-        width: 92
-        height: 92
+        x: 170
+        y: 311
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ffda241148ba52570800000000000000
-      internalID: 8441341660289478143
+      spriteID: dd3944f220cff15419cc63bdf97b736f
+      internalID: 1453155081
       vertices: []
       indices: 
       edges: []
@@ -279,20 +223,20 @@ TextureImporter:
       name: '!$Fireplace1_5'
       rect:
         serializedVersion: 2
-        x: 313
-        y: 310
-        width: 92
-        height: 92
+        x: 314
+        y: 311
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 351a6d0fc07eb1f20800000000000000
-      internalID: 3394560786920022355
+      spriteID: d9d95620989c0494f800b65254d3fb45
+      internalID: 139904118
       vertices: []
       indices: 
       edges: []
@@ -301,20 +245,20 @@ TextureImporter:
       name: '!$Fireplace1_6'
       rect:
         serializedVersion: 2
-        x: 47
-        y: 189
-        width: 49
-        height: 44
+        x: 48
+        y: 190
+        width: 47
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b37d0bde827327e0800000000000000
-      internalID: -1791462268877311050
+      spriteID: 9fde5eb42527aa84586010f803da0736
+      internalID: -806446714
       vertices: []
       indices: 
       edges: []
@@ -323,20 +267,20 @@ TextureImporter:
       name: '!$Fireplace1_7'
       rect:
         serializedVersion: 2
-        x: 191
-        y: 189
-        width: 49
-        height: 44
+        x: 192
+        y: 190
+        width: 47
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 086c1c55308273130800000000000000
-      internalID: 3546347226366330496
+      spriteID: b635bd4bdec59ee4989a0126a105766d
+      internalID: -40970771
       vertices: []
       indices: 
       edges: []
@@ -345,20 +289,20 @@ TextureImporter:
       name: '!$Fireplace1_8'
       rect:
         serializedVersion: 2
-        x: 335
-        y: 189
-        width: 49
-        height: 44
+        x: 336
+        y: 190
+        width: 47
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7cf80e2a83a441a80800000000000000
-      internalID: -8497084989830033465
+      spriteID: 75bfe5ded2597534e95f3b256f2bb625
+      internalID: -1698254938
       vertices: []
       indices: 
       edges: []
@@ -367,20 +311,20 @@ TextureImporter:
       name: '!$Fireplace1_9'
       rect:
         serializedVersion: 2
-        x: 24
-        y: 24
-        width: 92
-        height: 92
+        x: 25
+        y: 25
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4bb376fd189df0a20800000000000000
-      internalID: 3030880226065726388
+      spriteID: d28a941ebfaef184f8bca1282fc9f78a
+      internalID: -167038413
       vertices: []
       indices: 
       edges: []
@@ -389,20 +333,20 @@ TextureImporter:
       name: '!$Fireplace1_10'
       rect:
         serializedVersion: 2
-        x: 168
-        y: 24
-        width: 92
-        height: 92
+        x: 169
+        y: 25
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 74eab80318f1d30e0800000000000000
-      internalID: -2288638395908641209
+      spriteID: d58d2702c8882ec48825ca672d84bd23
+      internalID: 1974751927
       vertices: []
       indices: 
       edges: []
@@ -411,20 +355,20 @@ TextureImporter:
       name: '!$Fireplace1_11'
       rect:
         serializedVersion: 2
-        x: 312
-        y: 24
-        width: 92
-        height: 92
+        x: 313
+        y: 25
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0bbd4d5f5d3ffd90800000000000000
-      internalID: -7061858210897085685
+      spriteID: fb4abcbb017efe44689ef0fca888c3de
+      internalID: 9961415
       vertices: []
       indices: 
       edges: []
@@ -433,7 +377,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ec77f44167c1cef4b97b310fcb325e4b
     internalID: 0
     vertices: []
     indices: 
@@ -442,23 +386,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable:
-      '!$Fireplace1_0': -5691609676581566079
-      '!$Fireplace1_1': 6219348453091562748
-      '!$Fireplace1_10': -2288638395908641209
-      '!$Fireplace1_11': -7061858210897085685
-      '!$Fireplace1_2': -5087567175225099722
-      '!$Fireplace1_3': 5876760344937862166
-      '!$Fireplace1_4': 8441341660289478143
-      '!$Fireplace1_5': 3394560786920022355
-      '!$Fireplace1_6': -1791462268877311050
-      '!$Fireplace1_7': 3546347226366330496
-      '!$Fireplace1_8': -8497084989830033465
-      '!$Fireplace1_9': 3030880226065726388
-=======
-    nameFileIdTable: {}
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+      '!$Fireplace1_0': -1521760132
+      '!$Fireplace1_1': 795080043
+      '!$Fireplace1_10': 1974751927
+      '!$Fireplace1_11': 9961415
+      '!$Fireplace1_2': -1285489230
+      '!$Fireplace1_3': -232186405
+      '!$Fireplace1_4': 1453155081
+      '!$Fireplace1_5': 139904118
+      '!$Fireplace1_6': -806446714
+      '!$Fireplace1_7': -40970771
+      '!$Fireplace1_8': -1698254938
+      '!$Fireplace1_9': -167038413
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

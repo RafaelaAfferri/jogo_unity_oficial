@@ -44,6 +44,8 @@ public class PuzzleManager : MonoBehaviour
     public void Voltar()
     {
         panel.SetActive(false); // Desativa o painel do puzzle
+        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+        
     }
 
     public void Avancar(){

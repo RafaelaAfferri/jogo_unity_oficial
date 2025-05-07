@@ -235,7 +235,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -249,7 +249,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -314,10 +314,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 648
-        width: 41
-        height: 85
+        x: 9
+        y: 649
+        width: 39
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 644
-        width: 43
-        height: 89
+        x: 54
+        y: 645
+        width: 41
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_2
       rect:
         serializedVersion: 2
-        x: 99
-        y: 644
-        width: 46
-        height: 89
+        x: 100
+        y: 645
+        width: 44
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_3
       rect:
         serializedVersion: 2
-        x: 145
-        y: 695
-        width: 48
-        height: 58
+        x: 146
+        y: 696
+        width: 46
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_4
       rect:
         serializedVersion: 2
-        x: 198
-        y: 694
-        width: 35
-        height: 50
+        x: 199
+        y: 695
+        width: 33
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_5
       rect:
         serializedVersion: 2
-        x: 241
-        y: 697
-        width: 47
-        height: 51
+        x: 242
+        y: 698
+        width: 45
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_6
       rect:
         serializedVersion: 2
-        x: 289
-        y: 697
-        width: 47
-        height: 46
+        x: 290
+        y: 698
+        width: 45
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_7
       rect:
         serializedVersion: 2
-        x: 337
-        y: 719
-        width: 44
-        height: 16
+        x: 338
+        y: 720
+        width: 42
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_8
       rect:
         serializedVersion: 2
-        x: 394
-        y: 671
-        width: 28
-        height: 62
+        x: 395
+        y: 672
+        width: 26
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_9
       rect:
         serializedVersion: 2
-        x: 442
-        y: 671
-        width: 28
-        height: 48
+        x: 496
+        y: 672
+        width: 24
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_10
       rect:
         serializedVersion: 2
-        x: 495
-        y: 671
-        width: 26
-        height: 63
+        x: 536
+        y: 672
+        width: 24
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_11
       rect:
         serializedVersion: 2
-        x: 535
-        y: 671
-        width: 26
-        height: 63
+        x: 582
+        y: 674
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_12
       rect:
         serializedVersion: 2
-        x: 581
-        y: 673
-        width: 34
-        height: 66
+        x: 634
+        y: 674
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +600,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_13
       rect:
         serializedVersion: 2
-        x: 633
-        y: 673
-        width: 34
-        height: 66
+        x: 681
+        y: 720
+        width: 30
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_14
       rect:
         serializedVersion: 2
-        x: 680
-        y: 719
-        width: 32
-        height: 41
+        x: 720
+        y: 720
+        width: 48
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +644,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_15
       rect:
         serializedVersion: 2
-        x: 719
-        y: 719
-        width: 49
-        height: 36
+        x: 443
+        y: 672
+        width: 26
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_16
       rect:
         serializedVersion: 2
-        x: 674
-        y: 671
-        width: 94
-        height: 36
+        x: 675
+        y: 672
+        width: 93
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_17
       rect:
         serializedVersion: 2
-        x: 5
-        y: 548
-        width: 43
-        height: 77
+        x: 6
+        y: 549
+        width: 41
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +710,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_18
       rect:
         serializedVersion: 2
-        x: 51
-        y: 511
-        width: 142
-        height: 114
+        x: 52
+        y: 512
+        width: 140
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +732,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_19
       rect:
         serializedVersion: 2
-        x: 145
-        y: 599
-        width: 48
-        height: 62
+        x: 146
+        y: 600
+        width: 46
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +754,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_20
       rect:
         serializedVersion: 2
-        x: 193
-        y: 602
-        width: 47
-        height: 52
+        x: 194
+        y: 603
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,10 +776,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_21
       rect:
         serializedVersion: 2
-        x: 241
-        y: 601
-        width: 47
-        height: 52
+        x: 242
+        y: 602
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +798,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_22
       rect:
         serializedVersion: 2
-        x: 289
-        y: 602
-        width: 96
-        height: 53
+        x: 290
+        y: 603
+        width: 94
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,10 +820,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_23
       rect:
         serializedVersion: 2
-        x: 392
-        y: 575
-        width: 32
-        height: 64
+        x: 393
+        y: 576
+        width: 30
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +842,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_24
       rect:
         serializedVersion: 2
-        x: 440
-        y: 575
-        width: 32
-        height: 50
+        x: 441
+        y: 576
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,10 +864,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_25
       rect:
         serializedVersion: 2
-        x: 495
-        y: 575
-        width: 26
-        height: 62
+        x: 496
+        y: 576
+        width: 24
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,10 +886,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_26
       rect:
         serializedVersion: 2
-        x: 535
-        y: 575
-        width: 26
-        height: 62
+        x: 536
+        y: 576
+        width: 24
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -908,10 +908,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_27
       rect:
         serializedVersion: 2
-        x: 580
-        y: 577
-        width: 35
-        height: 65
+        x: 581
+        y: 578
+        width: 33
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,10 +930,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_28
       rect:
         serializedVersion: 2
-        x: 633
-        y: 577
-        width: 35
-        height: 65
+        x: 634
+        y: 578
+        width: 33
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -952,10 +952,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_29
       rect:
         serializedVersion: 2
-        x: 686
-        y: 551
-        width: 27
-        height: 110
+        x: 687
+        y: 552
+        width: 25
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,10 +974,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_30
       rect:
         serializedVersion: 2
-        x: 728
-        y: 605
-        width: 32
-        height: 41
+        x: 729
+        y: 606
+        width: 30
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,10 +996,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_31
       rect:
         serializedVersion: 2
-        x: 191
-        y: 511
-        width: 98
-        height: 66
+        x: 192
+        y: 512
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1018,10 +1018,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_32
       rect:
         serializedVersion: 2
-        x: 289
-        y: 431
-        width: 144
-        height: 128
+        x: 290
+        y: 432
+        width: 142
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1040,10 +1040,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_33
       rect:
         serializedVersion: 2
-        x: 433
-        y: 480
-        width: 140
-        height: 71
+        x: 434
+        y: 481
+        width: 138
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1062,10 +1062,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_34
       rect:
         serializedVersion: 2
-        x: 575
-        y: 479
-        width: 97
-        height: 74
+        x: 576
+        y: 480
+        width: 95
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1084,10 +1084,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_35
       rect:
         serializedVersion: 2
-        x: 719
-        y: 383
-        width: 49
-        height: 164
+        x: 720
+        y: 384
+        width: 48
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1107,9 +1107,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 479
-        width: 91
-        height: 28
+        y: 480
+        width: 90
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1128,10 +1128,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_37
       rect:
         serializedVersion: 2
-        x: 671
-        y: 431
-        width: 50
-        height: 69
+        x: 672
+        y: 432
+        width: 48
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1151,9 +1151,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 367
-        width: 97
-        height: 80
+        y: 368
+        width: 96
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1172,10 +1172,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_39
       rect:
         serializedVersion: 2
-        x: 95
-        y: 367
-        width: 50
-        height: 80
+        x: 96
+        y: 368
+        width: 48
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1194,10 +1194,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_40
       rect:
         serializedVersion: 2
-        x: 143
-        y: 367
-        width: 98
-        height: 93
+        x: 144
+        y: 368
+        width: 96
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1216,10 +1216,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_41
       rect:
         serializedVersion: 2
-        x: 239
-        y: 367
-        width: 50
-        height: 91
+        x: 240
+        y: 368
+        width: 48
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1238,10 +1238,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_42
       rect:
         serializedVersion: 2
-        x: 287
-        y: 367
-        width: 50
-        height: 91
+        x: 288
+        y: 368
+        width: 48
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1260,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_43
       rect:
         serializedVersion: 2
-        x: 335
-        y: 287
-        width: 98
-        height: 172
+        x: 336
+        y: 288
+        width: 96
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1282,10 +1282,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_44
       rect:
         serializedVersion: 2
-        x: 433
-        y: 383
-        width: 140
-        height: 72
+        x: 434
+        y: 384
+        width: 138
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1304,10 +1304,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_45
       rect:
         serializedVersion: 2
-        x: 575
-        y: 383
-        width: 97
-        height: 74
+        x: 576
+        y: 384
+        width: 95
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1326,10 +1326,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_46
       rect:
         serializedVersion: 2
-        x: 672
-        y: 383
-        width: 47
-        height: 21
+        x: 673
+        y: 384
+        width: 45
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1348,10 +1348,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_47
       rect:
         serializedVersion: 2
-        x: 32
-        y: 155
-        width: 32
-        height: 161
+        x: 33
+        y: 156
+        width: 30
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1370,10 +1370,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_48
       rect:
         serializedVersion: 2
-        x: 94
-        y: 271
-        width: 51
-        height: 67
+        x: 95
+        y: 272
+        width: 49
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1392,10 +1392,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_49
       rect:
         serializedVersion: 2
-        x: 143
-        y: 271
-        width: 98
-        height: 66
+        x: 144
+        y: 272
+        width: 96
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1414,10 +1414,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_50
       rect:
         serializedVersion: 2
-        x: 239
-        y: 271
-        width: 50
-        height: 66
+        x: 240
+        y: 272
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1436,10 +1436,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_51
       rect:
         serializedVersion: 2
-        x: 287
-        y: 287
-        width: 50
-        height: 50
+        x: 288
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1458,10 +1458,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_52
       rect:
         serializedVersion: 2
-        x: 433
-        y: 287
-        width: 140
-        height: 72
+        x: 434
+        y: 288
+        width: 138
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1480,10 +1480,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_53
       rect:
         serializedVersion: 2
-        x: 578
-        y: 287
-        width: 95
-        height: 69
+        x: 579
+        y: 288
+        width: 93
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1502,10 +1502,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_54
       rect:
         serializedVersion: 2
-        x: 674
-        y: 287
-        width: 94
-        height: 70
+        x: 675
+        y: 288
+        width: 93
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1524,10 +1524,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_55
       rect:
         serializedVersion: 2
-        x: 95
-        y: 191
-        width: 50
-        height: 50
+        x: 96
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1546,10 +1546,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_56
       rect:
         serializedVersion: 2
-        x: 143
-        y: 191
-        width: 98
-        height: 50
+        x: 144
+        y: 192
+        width: 96
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1568,10 +1568,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_57
       rect:
         serializedVersion: 2
-        x: 239
-        y: 176
-        width: 50
-        height: 65
+        x: 240
+        y: 177
+        width: 48
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1590,10 +1590,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_58
       rect:
         serializedVersion: 2
-        x: 293
-        y: 167
-        width: 88
-        height: 97
+        x: 294
+        y: 168
+        width: 86
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1612,10 +1612,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_59
       rect:
         serializedVersion: 2
-        x: 383
+        x: 384
         y: 0
-        width: 385
-        height: 259
+        width: 384
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1635,9 +1635,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 95
-        width: 91
-        height: 29
+        y: 96
+        width: 90
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1656,10 +1656,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_61
       rect:
         serializedVersion: 2
-        x: 101
-        y: 119
-        width: 38
-        height: 38
+        x: 102
+        y: 120
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1678,10 +1678,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_62
       rect:
         serializedVersion: 2
-        x: 149
-        y: 119
-        width: 38
-        height: 53
+        x: 150
+        y: 120
+        width: 36
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1700,10 +1700,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_63
       rect:
         serializedVersion: 2
-        x: 191
-        y: 6
-        width: 194
-        height: 139
+        x: 192
+        y: 7
+        width: 192
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1722,10 +1722,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_64
       rect:
         serializedVersion: 2
-        x: 2
-        y: 17
-        width: 87
-        height: 36
+        x: 3
+        y: 18
+        width: 85
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1744,10 +1744,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_65
       rect:
         serializedVersion: 2
-        x: 102
+        x: 103
         y: 0
-        width: 36
-        height: 76
+        width: 34
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1766,10 +1766,10 @@ TextureImporter:
       name: Fantasy_Inside_C_white_66
       rect:
         serializedVersion: 2
-        x: 148
+        x: 149
         y: 0
-        width: 40
-        height: 89
+        width: 38
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1788,7 +1788,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 86c7c9dbc1ded5a4785bddbc23371d7d
     internalID: 0
     vertices: []
     indices: 

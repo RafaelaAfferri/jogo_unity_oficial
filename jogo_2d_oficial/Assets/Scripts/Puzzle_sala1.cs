@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Puzzle_Sala1 : MonoBehaviour
 {
@@ -8,8 +9,13 @@ public class Puzzle_Sala1 : MonoBehaviour
     public Button botaoAvancar;
     public TextMeshProUGUI textoFeedback;
 
+
     private string respostaCorreta = "1315";
     public GameObject painelPuzzle;
+
+    public void Start(){
+
+    }
 
     public void Verificar()
     {
@@ -30,15 +36,16 @@ public class Puzzle_Sala1 : MonoBehaviour
 
     public void Voltar()
     {
-        painelPuzzle.SetActive(false);
         textoFeedback.gameObject.SetActive(false);
         inputResposta.text = "";
         botaoAvancar.gameObject.SetActive(false);
+        SceneManager.LoadScene("Esther"); // Volta para a cena inicial
+
     }
 
     public void Avancar()
     {
-        painelPuzzle.SetActive(false);
         Debug.Log("Avançar para a próxima parte do jogo!");
+        SceneManager.LoadScene("Esther"); // Volta para a cena inicial
     }
 }

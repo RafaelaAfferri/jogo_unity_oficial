@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Puzzle2_sala2 : MonoBehaviour
 {
@@ -60,21 +61,19 @@ public class Puzzle2_sala2 : MonoBehaviour
 
     public void Voltar()
     {
-        textoFeedback.gameObject.SetActive(false);
-        textoLivro.gameObject.SetActive(false);
-        botaoAvancar.gameObject.SetActive(false);
+        SceneManager.LoadScene("Cena Ana"); // Volta para a cena inicial
 
         foreach (var campo in camposCodigo)
         {
             campo.text = "";
         }
 
-        panel.SetActive(false);
+        
     }
 
     public void Avancar()
     {
-        panel.SetActive(false);
+        SceneManager.LoadScene("Cena Ana"); // Volta para a cena inicial
         Debug.Log("Avançar para a próxima parte do jogo!");
     }
 }

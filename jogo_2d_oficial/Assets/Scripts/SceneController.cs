@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    public string sala1 = "Esther";  
-    public string config = "Config - gubs";  
-    public string controls = "Controles - gubs";  
+    public string sala1 = "Sala I";
+    public string config = "Config - gubs";
+    public string controls = "Controles - gubs";
 
     public void Jogar()
     {

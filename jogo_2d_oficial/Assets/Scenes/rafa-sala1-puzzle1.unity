@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1315,7 +1315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -274, y: -105}
+  m_AnchoredPosition: {x: -106.76, y: -105}
   m_SizeDelta: {x: 700.55, y: 63.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1154673241
@@ -1836,7 +1836,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -1.2}
+  m_AnchoredPosition: {x: 0.00000023842, y: -0.00000011921}
   m_SizeDelta: {x: 376.66, y: 157.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1482278509
@@ -1859,7 +1859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Comece do princ\xEDpio, ordene as letras, encontre a palavra"
+  m_text: "Comece do princ\xEDpio do mundo, ordene as letras, forme a palavra sagrada."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

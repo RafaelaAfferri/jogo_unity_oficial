@@ -1,65 +1,63 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class Interativo : MonoBehaviour
 {
+    public KeyCode keyToPress = KeyCode.E;
+    public GameObject textToShow;
+    public string sceneToLoad;
+    public AudioClip interactionClip;
+    [Min(0)] public float sceneLoadDelay;
 
-    public bool isInRange = false; // Variável para verificar se o jogador está dentro do range do objeto interativo
-    public KeyCode keyToPress;
+    private AudioSource _audioSource;
+    private bool _sceneLoading;
+    private bool _isInRange;
 
-    public GameObject textToShow; // Referência ao objeto de texto que será exibido quando o jogador estiver no range
-    
-    public string sceneToLoad; // Nome da cena a ser carregada
-
-
-
-    public 
-    void Start()
+    private void Awake()
     {
-        
+        _audioSource = GetComponent<AudioSource>();
+        _audioSource.playOnAwake = false;
+        _audioSource.spatialBlend = 0f;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
-        if (isInRange)
+        if (_isInRange)
         {
-            textToShow.SetActive(true); // Ativa o objeto de texto quando o jogador está no range
+            if (!textToShow.activeSelf) textToShow.SetActive(true);
 
-            //aparecer texto
-            if(Input.GetKeyDown(keyToPress))
-            {
-                //abrir mini-game  
-                Debug.Log("Mini-game opened!");
-                SceneManager.LoadScene(sceneToLoad); 
-
-            }
-            
+            if (Input.GetKeyDown(keyToPress) && !_sceneLoading)
+                StartCoroutine(PlaySoundAndLoadScene());
         }
         else
         {
-            textToShow.SetActive(false); // Desativa o objeto de texto quando o jogador não está no range
+            if (textToShow.activeSelf) textToShow.SetActive(false);
         }
-
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private IEnumerator PlaySoundAndLoadScene()
     {
-        if (other.CompareTag("Player"))
+        _sceneLoading = true;
+
+        if (interactionClip != null)
         {
-            isInRange = true;
-            Debug.Log("Player is in range of the interactive object.");
+            _audioSource.PlayOneShot(interactionClip);
+            float wait = sceneLoadDelay > 0f ? sceneLoadDelay : interactionClip.length;
+            yield return new WaitForSeconds(wait);
         }
+
+        SceneManager.LoadScene(sceneToLoad);
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            isInRange = false;
-            Debug.Log("Player is out of range of the interactive object.");
-        }
+        if (other.CompareTag("Player")) _isInRange = true;
     }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player")) _isInRange = false;
+    }
 }

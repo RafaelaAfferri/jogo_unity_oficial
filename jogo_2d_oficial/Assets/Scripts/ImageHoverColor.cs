@@ -7,6 +7,8 @@ public class ImageHoverColor : MonoBehaviour, IPointerEnterHandler, IPointerExit
     private RawImage image;
 
     public Color corNormal = Color.white;
+
+    public string corHoverHex = "#AFAC92"; // Cor de hover em formato hexadecimal
     private Color corHover;
 
     void Awake()
@@ -19,7 +21,7 @@ public class ImageHoverColor : MonoBehaviour, IPointerEnterHandler, IPointerExit
             return;
         }
 
-        ColorUtility.TryParseHtmlString("#AFAC92", out corHover);
+        ColorUtility.TryParseHtmlString(corHoverHex, out corHover);
         image.color = corNormal;
     }
 

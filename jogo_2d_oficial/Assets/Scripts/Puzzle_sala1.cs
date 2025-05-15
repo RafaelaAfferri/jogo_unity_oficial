@@ -54,3 +54,4 @@ public class Puzzle_Sala1 : MonoBehaviour
         SceneManager.LoadScene("Esther"); // Volta para a cena inicial
     }
 }
+ 

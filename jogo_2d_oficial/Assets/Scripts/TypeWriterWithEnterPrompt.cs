@@ -10,6 +10,7 @@ public class TypewriterWithEnterPrompt : MonoBehaviour
     public string fullText;
     public float typingSpeed = 0.05f;
     public float startDelay = 1f;
+    public string sceneToLoad; // Nome da cena a ser carregada
 
     public GameObject enterPrompt; // Texto “Pressione ENTER para continuar”
 
@@ -27,7 +28,7 @@ public class TypewriterWithEnterPrompt : MonoBehaviour
         if (typingDone && Input.GetKeyDown(KeyCode.Return))
         {
             // Troca de cena
-            SceneManager.LoadScene("Carta");
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 

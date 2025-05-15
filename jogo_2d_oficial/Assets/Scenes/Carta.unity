@@ -274,6 +274,7 @@ MonoBehaviour:
   fullText: Elyan,
   typingSpeed: 0.05
   startDelay: 0
+  sceneToLoad: Fim Carta
   enterPrompt: {fileID: 2036678286}
 --- !u!1 &911451951
 GameObject:
@@ -966,6 +967,7 @@ MonoBehaviour:
     e v\xE1 sozinho.\nQue os ecos da verdade te guiem.\n\n         \u2014 D. Moura"
   typingSpeed: 0.03
   startDelay: 0
+  sceneToLoad: Fim Carta
   enterPrompt: {fileID: 1736843820}
 --- !u!114 &2036678289
 MonoBehaviour:

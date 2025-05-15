@@ -50,6 +50,7 @@ public class Puzzle_Sala1 : MonoBehaviour
     public void Avancar()
     {
         Debug.Log("Avançar para a próxima parte do jogo!");
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle_Sala1");
         SceneManager.LoadScene("Esther"); // Volta para a cena inicial
     }
 }

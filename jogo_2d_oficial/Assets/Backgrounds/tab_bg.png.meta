@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3f117574d56a94a1b9d0ead07c1f895f
+guid: 9e18be8dd04ad2b47a53eb09a0cdd076
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 344167224938770134
-    second: Screenshot 2025-05-14 at 14.27.21_0
+      213: -4887959726428744695
+    second: tab_bg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Screenshot 2025-05-14 at 14.27.21_0
+      name: tab_bg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 230
-        height: 134
+        width: 967
+        height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6deaec1844ab6c400800000000000000
-      internalID: 344167224938770134
+      spriteID: 9049ccdb68a7a2cb0800000000000000
+      internalID: -4887959726428744695
       vertices: []
       indices: 
       edges: []
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Screenshot 2025-05-14 at 14.27.21_0: 344167224938770134
+      tab_bg_0: -4887959726428744695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

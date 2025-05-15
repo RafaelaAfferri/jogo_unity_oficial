@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using System.Collections;
 
 [RequireComponent(typeof(AudioSource))]
@@ -15,21 +14,21 @@ public class Interativo : MonoBehaviour
     private bool _sceneLoading;
     private bool _isInRange;
 
-    private void Awake()
+    void Awake()
     {
         _audioSource = GetComponent<AudioSource>();
         _audioSource.playOnAwake = false;
         _audioSource.spatialBlend = 0f;
     }
 
-    private void Update()
+    void Update()
     {
         if (_isInRange)
         {
             if (!textToShow.activeSelf) textToShow.SetActive(true);
 
             if (Input.GetKeyDown(keyToPress) && !_sceneLoading)
-                StartCoroutine(PlaySoundAndLoadScene());
+                StartCoroutine(PlaySoundAndTransition());
         }
         else
         {
@@ -37,7 +36,7 @@ public class Interativo : MonoBehaviour
         }
     }
 
-    private IEnumerator PlaySoundAndLoadScene()
+    IEnumerator PlaySoundAndTransition()
     {
         _sceneLoading = true;
 
@@ -48,15 +47,15 @@ public class Interativo : MonoBehaviour
             yield return new WaitForSeconds(wait);
         }
 
-        SceneManager.LoadScene(sceneToLoad);
+        SceneFader.Instance.FadeToScene(sceneToLoad);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) _isInRange = true;
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player")) _isInRange = false;
     }

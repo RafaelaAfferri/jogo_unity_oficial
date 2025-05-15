@@ -65,8 +65,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u201CSeu duelo contra um bar\xE3o rival terminou em sangue. Alguns dizem
-    que Elyssa ainda chorava a morte de Thorne quando isso ocorreu.\u201D"
+  m_text: "Morreu tr\xEAs semanas ap\xF3s o enterro de Thorne, durante o desentendimento
+    no sal\xE3o de armas. A cerim\xF4nia foi reduzida por conta das chuvas e da tens\xE3o
+    entre residentes."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -173,10 +174,10 @@ RectTransform:
   - {fileID: 8793569236865650067}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 650, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &435388120555312569
 CanvasRenderer:

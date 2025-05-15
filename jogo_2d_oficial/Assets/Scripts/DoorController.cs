@@ -7,12 +7,15 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Animator))]
 public class DoorController : MonoBehaviour
 {
-    [Header("Distâncias (em unidades)")]
-    public float openDistance = 3f;    // raio para tocar animação de abrir
-    public float enterDistance = 1f;   // raio para entrar na próxima cena
+    [Header("Distâncias (unidades)")]
+    public float openDistance = 3f;     // toca animação
+    public float enterDistance = 1f;    // troca de cena
 
     [Header("Cena de destino")]
     public string nextScene;
+
+    [Header("Puzzles exigidos")]
+    public string[] requiredPuzzles;    // IDs que precisam estar resolvidos
 
     [Header("Animator")]
     public Animator animator;
@@ -31,18 +34,24 @@ public class DoorController : MonoBehaviour
     {
         if (player == null || sceneLoaded) return;
 
+        // só abre se todos os puzzles estiverem resolvidos
+        bool canOpen = requiredPuzzles == null ||
+                       requiredPuzzles.Length == 0 ||
+                       PuzzleProgressManager.Instance.AllSolved(requiredPuzzles);
+
+        if (!canOpen) return;                        // puzzles pendentes → sai
+
         float dist = Vector2.Distance(player.position, transform.position);
 
         if (!opened && dist <= openDistance)
         {
-            animator.SetTrigger(openTrigger);
+            animator.SetTrigger(openTrigger);        // animação de abrir
             opened = true;
         }
 
         if (opened && dist <= enterDistance)
         {
             sceneLoaded = true;
-            // Usa o fade, se tiver SceneFader na cena; senão, carrega direto
             if (SceneFader.Instance != null)
                 SceneFader.Instance.FadeToScene(nextScene);
             else

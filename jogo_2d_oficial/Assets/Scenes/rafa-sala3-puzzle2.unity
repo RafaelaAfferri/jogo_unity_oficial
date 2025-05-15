@@ -220,11 +220,10 @@ RectTransform:
   - {fileID: 1222294489}
   - {fileID: 2104702183}
   - {fileID: 1751360393}
-  - {fileID: 262423358}
-  - {fileID: 1619429899}
   - {fileID: 544017827}
   - {fileID: 1286129019}
   - {fileID: 2120177471}
+  - {fileID: 262423358}
   - {fileID: 630945197}
   - {fileID: 303682726}
   - {fileID: 1802943512}
@@ -249,7 +248,7 @@ GameObject:
   - component: {fileID: 262423359}
   - component: {fileID: 262423361}
   m_Layer: 5
-  m_Name: alvanca 1
+  m_Name: alavanca 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,7 +358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -319.99997, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &303100824
@@ -405,7 +404,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 303100825}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1490510160}
+        m_TargetAssemblyTypeName: Puzzle2_sala3, Assembly-CSharp
+        m_MethodName: alavanca3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &303100825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,6 +466,7 @@ GameObject:
   - component: {fileID: 303682726}
   - component: {fileID: 303682728}
   - component: {fileID: 303682727}
+  - component: {fileID: 303682729}
   m_Layer: 5
   m_Name: alavanca 3
   m_TagString: Untagged
@@ -517,6 +529,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303682725}
   m_CullTransparentMesh: 1
+--- !u!114 &303682729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303682725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4cb6224216f4b8408402abd65e946b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corNormal: {r: 1, g: 1, b: 1, a: 1}
+  corHoverHex: '#AFAC92'
 --- !u!1 &544017826
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,8 +626,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Puzzel1_sala3, Assembly-CSharp
+      - m_Target: {fileID: 1490510160}
+        m_TargetAssemblyTypeName: Puzzle2_sala3, Assembly-CSharp
         m_MethodName: Verificar
         m_Mode: 1
         m_Arguments:
@@ -733,6 +759,7 @@ GameObject:
   - component: {fileID: 630945197}
   - component: {fileID: 630945199}
   - component: {fileID: 630945198}
+  - component: {fileID: 630945200}
   m_Layer: 5
   m_Name: alavanca 2
   m_TagString: Untagged
@@ -795,138 +822,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630945196}
   m_CullTransparentMesh: 1
---- !u!1 &861402218
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 861402219}
-  - component: {fileID: 861402222}
-  - component: {fileID: 861402221}
-  - component: {fileID: 861402220}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &861402219
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861402218}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1619429899}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.24100001, y: 0.1788108}
-  m_AnchorMax: {x: 0.771, y: 0.81000006}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &861402220
+--- !u!114 &630945200
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861402218}
+  m_GameObject: {fileID: 630945196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: f4cb6224216f4b8408402abd65e946b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 861402221}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Puzzle2_sala2, Assembly-CSharp
-        m_MethodName: abrirLivro1
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &861402221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861402218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &861402222
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861402218}
-  m_CullTransparentMesh: 1
+  corNormal: {r: 1, g: 1, b: 1, a: 1}
+  corHoverHex: '#AFAC92'
 --- !u!1 &976218802
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -480, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &976218804
@@ -1008,7 +917,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 976218805}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1490510160}
+        m_TargetAssemblyTypeName: Puzzle2_sala3, Assembly-CSharp
+        m_MethodName: alavanca4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &976218805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,8 +1123,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Puzzel1_sala3, Assembly-CSharp
+      - m_Target: {fileID: 1490510160}
+        m_TargetAssemblyTypeName: Puzzle2_sala3, Assembly-CSharp
         m_MethodName: Avancar
         m_Mode: 1
         m_Arguments:
@@ -1366,7 +1287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -159.99998, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1345982919
@@ -1412,7 +1333,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1345982920}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1490510160}
+        m_TargetAssemblyTypeName: Puzzle2_sala3, Assembly-CSharp
+        m_MethodName: alavanca2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1345982920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,6 +1429,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resposta: 0000000000000000000000000000000000000000
+  spriteON: {fileID: 2800000, guid: e2f93403e7524ad4291685d263b2028f, type: 3}
+  spriteOFF: {fileID: 2800000, guid: 38217d00f6d22b146ac0ccaa0a46a90f, type: 3}
+  alavancaImagens:
+  - {fileID: 262423359}
+  - {fileID: 630945198}
+  - {fileID: 303682727}
+  - {fileID: 1802943513}
+  - {fileID: 1651056535}
+  textoFeedback: {fileID: 2120177472}
+  botaoAvancar: {fileID: 1286129020}
 --- !u!1 &1541790918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,94 +1571,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541790918}
   m_CullTransparentMesh: 1
---- !u!1 &1619429898
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1619429899}
-  - component: {fileID: 1619429902}
-  - component: {fileID: 1619429901}
-  - component: {fileID: 1619429900}
-  m_Layer: 5
-  m_Name: livro1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1619429899
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619429898}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 861402219}
-  m_Father: {fileID: 186832937}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.06, y: 0.67300004}
-  m_AnchorMax: {x: 0.32250002, y: 0.95}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1619429900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619429898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4cb6224216f4b8408402abd65e946b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  corNormal: {r: 1, g: 1, b: 1, a: 1}
-  corHoverHex: '#AFAC92'
---- !u!114 &1619429901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619429898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 061cb3376f858c946a59f41168b40f2d, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &1619429902
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619429898}
-  m_CullTransparentMesh: 1
 --- !u!1 &1651056533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,6 +1582,7 @@ GameObject:
   - component: {fileID: 1651056534}
   - component: {fileID: 1651056536}
   - component: {fileID: 1651056535}
+  - component: {fileID: 1651056537}
   m_Layer: 5
   m_Name: alavanca 5
   m_TagString: Untagged
@@ -1789,6 +1645,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651056533}
   m_CullTransparentMesh: 1
+--- !u!114 &1651056537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651056533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4cb6224216f4b8408402abd65e946b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corNormal: {r: 1, g: 1, b: 1, a: 1}
+  corHoverHex: '#AFAC92'
 --- !u!1 &1689614188
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,7 +1972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -639.99994, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1779186441
@@ -2148,7 +2018,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1779186442}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1490510160}
+        m_TargetAssemblyTypeName: Puzzle2_sala3, Assembly-CSharp
+        m_MethodName: alavanca5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1779186442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2198,6 +2080,7 @@ GameObject:
   - component: {fileID: 1802943512}
   - component: {fileID: 1802943514}
   - component: {fileID: 1802943513}
+  - component: {fileID: 1802943515}
   m_Layer: 5
   m_Name: alavanca 4
   m_TagString: Untagged
@@ -2260,6 +2143,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802943511}
   m_CullTransparentMesh: 1
+--- !u!114 &1802943515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802943511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4cb6224216f4b8408402abd65e946b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corNormal: {r: 1, g: 1, b: 1, a: 1}
+  corHoverHex: '#AFAC92'
 --- !u!1 &1929475658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2980,14 +2877,14 @@ PrefabInstance:
     - target: {fileID: 8510610171348812240, guid: 57af541f52d4ebc43b103a3395171d7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1490510160}
     - target: {fileID: 8510610171348812240, guid: 57af541f52d4ebc43b103a3395171d7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Voltar
       objectReference: {fileID: 0}
     - target: {fileID: 8510610171348812240, guid: 57af541f52d4ebc43b103a3395171d7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Puzzel1_sala3, Assembly-CSharp
+      value: Puzzle2_sala3, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

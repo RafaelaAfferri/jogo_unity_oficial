@@ -46,7 +46,7 @@ public class PuzzleManager : MonoBehaviour
         }
 
         Debug.Log("Puzzle resolvido corretamente!");
-        anoMorte.text = "Última anotação no bloco dos residentes permanentes. Encontrada sem sinais de violência nos aposentos superiores. - Data: 15/05/1985";
+        anoMorte.text = "Última anotação no bloco dos residentes permanentes. Encontrada sem sinais de violência nos aposentos superiores. - Data: 13/05/1895";
         textoFeedback.text = "Correto!"; // Atualiza o feedback de resposta correta
         textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta correta
         botaoAvancar.gameObject.SetActive(true); // Ativa o botão de avançar

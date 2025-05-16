@@ -276,6 +276,8 @@ MonoBehaviour:
   startDelay: 0
   sceneToLoad: Fim Carta
   enterPrompt: {fileID: 2036678286}
+  typeSound: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &911451951
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +971,8 @@ MonoBehaviour:
   startDelay: 0
   sceneToLoad: Fim Carta
   enterPrompt: {fileID: 1736843820}
+  typeSound: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &2036678289
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,13 +10,15 @@ public class TypewriterWithEnterPrompt : MonoBehaviour
     public string fullText;
     public float typingSpeed = 0.05f;
     public float startDelay = 1f;
-    public string sceneToLoad; // Nome da cena a ser carregada
+    public string sceneToLoad;
 
-    public GameObject enterPrompt; // Texto “Pressione ENTER para continuar”
+    public GameObject enterPrompt;
+    public AudioClip typeSound; // Som da máquina de escrever
+    public AudioSource audioSource; // Fonte de áudio para digitação
 
     void Start()
     {
-        enterPrompt.SetActive(false); // esconde o ENTER no início
+        enterPrompt.SetActive(false);
         StartCoroutine(TypeText());
     }
 
@@ -24,10 +26,8 @@ public class TypewriterWithEnterPrompt : MonoBehaviour
 
     void Update()
     {
-        // Só permite apertar Enter depois que o texto terminou
         if (typingDone && Input.GetKeyDown(KeyCode.Return))
         {
-            // Troca de cena
             SceneManager.LoadScene(sceneToLoad);
         }
     }
@@ -41,10 +41,15 @@ public class TypewriterWithEnterPrompt : MonoBehaviour
         foreach (char c in fullText)
         {
             textMeshPro.text += c;
+
+            if (!char.IsWhiteSpace(c) && typeSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(typeSound);
+            }
+
             yield return new WaitForSeconds(typingSpeed);
         }
 
-        // Mostra o texto "Pressione ENTER"
         enterPrompt.SetActive(true);
         typingDone = true;
     }

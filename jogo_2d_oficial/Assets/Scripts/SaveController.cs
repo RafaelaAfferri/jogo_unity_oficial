@@ -33,34 +33,35 @@ public class SaveController : MonoBehaviour
         }
     }
 
-    private IEnumerator ShowSaveFeedback()
+private IEnumerator ShowSaveFeedback()
+{
+    saveFeedbackText.SetActive(true);
+    canvasGroup.alpha = 0f;
+
+    // Fade In
+    float fadeInDuration = 0.5f;
+    for (float t = 0; t < fadeInDuration; t += Time.unscaledDeltaTime)
     {
-        saveFeedbackText.SetActive(true);
-        canvasGroup.alpha = 0f;
-
-        // Fade In
-        float fadeInDuration = 0.5f;
-        for (float t = 0; t < fadeInDuration; t += Time.deltaTime)
-        {
-            canvasGroup.alpha = t / fadeInDuration;
-            yield return null;
-        }
-        canvasGroup.alpha = 1f;
-
-        // Espera visível
-        yield return new WaitForSeconds(1.5f);
-
-        // Fade Out
-        float fadeOutDuration = 0.5f;
-        for (float t = 0; t < fadeOutDuration; t += Time.deltaTime)
-        {
-            canvasGroup.alpha = 1f - (t / fadeOutDuration);
-            yield return null;
-        }
-        canvasGroup.alpha = 0f;
-
-        saveFeedbackText.SetActive(false);
+        canvasGroup.alpha = t / fadeInDuration;
+        yield return null;
     }
+    canvasGroup.alpha = 1f;
+
+    // Espera visível
+    yield return new WaitForSecondsRealtime(1.5f);
+
+    // Fade Out
+    float fadeOutDuration = 0.5f;
+    for (float t = 0; t < fadeOutDuration; t += Time.unscaledDeltaTime)
+    {
+        canvasGroup.alpha = 1f - (t / fadeOutDuration);
+        yield return null;
+    }
+    canvasGroup.alpha = 0f;
+
+    saveFeedbackText.SetActive(false);
+}
+
 
     public void LoadGame()
     {

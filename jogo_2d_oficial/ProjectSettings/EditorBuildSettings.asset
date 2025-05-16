@@ -36,14 +36,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Sala IV.unity
     guid: 54122fc015642a746a01d83bb2882f59
   - enabled: 1
-    path: Assets/Scenes/Intro.unity
+    path: Assets/Scenes/In Between/Intro.unity
     guid: 053f5180611e2124aae89cc3eca56d17
   - enabled: 1
-    path: Assets/Scenes/Carta.unity
+    path: Assets/Scenes/In Between/Carta.unity
     guid: 5b743fe35875b5e4d921c9bb88664726
   - enabled: 1
-    path: Assets/Scenes/Fim Carta.unity
+    path: Assets/Scenes/In Between/Fim Carta.unity
     guid: 9d2cdba9e64a2a74ca4093e1794458f6
+  - enabled: 1
+    path: Assets/Scenes/In Between/Pos Sala I.unity
+    guid: fbdae0309d388c341ba0ce80c6664f9a
+  - enabled: 1
+    path: Assets/Scenes/In Between/Fragmento I.unity
+    guid: 9c47eaf88ec4193419adcde6e9488204
+  - enabled: 1
+    path: Assets/Scenes/In Between/Bau.unity
+    guid: f28a3d1fa70aa0441898d066b01b4278
+  - enabled: 1
+    path: Assets/Scenes/In Between/Final Frag 1.unity
+    guid: 9592cf09f94329148987af757ed4aa13
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,10 +6,14 @@ using UnityEngine.SceneManagement;
 public class SaveController : MonoBehaviour
 {
     private string saveLocation;
+    
+    public GameObject saveFeedbackText;
+    private CanvasGroup canvasGroup;
 
     void Start()
     {
         saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");
+        canvasGroup = saveFeedbackText.GetComponent<CanvasGroup>();
         LoadGame();
     }
 
@@ -18,15 +21,45 @@ public class SaveController : MonoBehaviour
     {
         SaveData saveData = new SaveData();
 
-        // Salvar posição do jogador
         saveData.playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
-
-        // Salvar cena atual
         saveData.sceneName = SceneManager.GetActiveScene().name;
 
-        // Serializar e salvar no arquivo
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
         Debug.Log("Jogo salvo em: " + saveLocation);
+
+        if (saveFeedbackText != null)
+        {
+            StartCoroutine(ShowSaveFeedback());
+        }
+    }
+
+    private IEnumerator ShowSaveFeedback()
+    {
+        saveFeedbackText.SetActive(true);
+        canvasGroup.alpha = 0f;
+
+        // Fade In
+        float fadeInDuration = 0.5f;
+        for (float t = 0; t < fadeInDuration; t += Time.deltaTime)
+        {
+            canvasGroup.alpha = t / fadeInDuration;
+            yield return null;
+        }
+        canvasGroup.alpha = 1f;
+
+        // Espera visível
+        yield return new WaitForSeconds(1.5f);
+
+        // Fade Out
+        float fadeOutDuration = 0.5f;
+        for (float t = 0; t < fadeOutDuration; t += Time.deltaTime)
+        {
+            canvasGroup.alpha = 1f - (t / fadeOutDuration);
+            yield return null;
+        }
+        canvasGroup.alpha = 0f;
+
+        saveFeedbackText.SetActive(false);
     }
 
     public void LoadGame()
@@ -34,11 +67,8 @@ public class SaveController : MonoBehaviour
         if (File.Exists(saveLocation))
         {
             SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));
-
-            // Carregar posição do jogador
             GameObject.FindGameObjectWithTag("Player").transform.position = saveData.playerPosition;
 
-            // Carregar cena se for diferente
             if (SceneManager.GetActiveScene().name != saveData.sceneName)
             {
                 SceneManager.LoadScene(saveData.sceneName);

@@ -7,18 +7,37 @@ using UnityEditor;
 public class PauseMenuController : MonoBehaviour
 {
     public GameObject MenuCanvas;
+    private bool isPaused = false;
 
     void Start()
     {
-        MenuCanvas.SetActive(false);  
+        MenuCanvas.SetActive(false);
+        Time.timeScale = 1f; // garante que começa despausado
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            MenuCanvas.SetActive(!MenuCanvas.activeSelf);  
+            if (isPaused)
+                ResumeGame();
+            else
+                PauseGame();
         }
+    }
+
+    public void PauseGame()
+    {
+        MenuCanvas.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+    }
+
+    public void ResumeGame()
+    {
+        MenuCanvas.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
     }
 
     public void QuitGame()

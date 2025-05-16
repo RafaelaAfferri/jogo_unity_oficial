@@ -2,19 +2,26 @@ using System.Collections;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class SaveController : MonoBehaviour
 {
     private string saveLocation;
-    
+
     public GameObject saveFeedbackText;
     private CanvasGroup canvasGroup;
 
+    public Button continueButton;
+
     void Start()
     {
-        saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");
-        canvasGroup = saveFeedbackText.GetComponent<CanvasGroup>();
-        LoadGame();
+    saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");
+
+    if (continueButton != null && !File.Exists(saveLocation))
+    {
+        continueButton.interactable = false;
+    }
     }
 
     public void SaveGame()
@@ -33,34 +40,34 @@ public class SaveController : MonoBehaviour
         }
     }
 
-private IEnumerator ShowSaveFeedback()
-{
-    saveFeedbackText.SetActive(true);
-    canvasGroup.alpha = 0f;
-
-    // Fade In
-    float fadeInDuration = 0.5f;
-    for (float t = 0; t < fadeInDuration; t += Time.unscaledDeltaTime)
+    private IEnumerator ShowSaveFeedback()
     {
-        canvasGroup.alpha = t / fadeInDuration;
-        yield return null;
+        saveFeedbackText.SetActive(true);
+        canvasGroup.alpha = 0f;
+
+        // Fade In
+        float fadeInDuration = 0.5f;
+        for (float t = 0; t < fadeInDuration; t += Time.unscaledDeltaTime)
+        {
+            canvasGroup.alpha = t / fadeInDuration;
+            yield return null;
+        }
+        canvasGroup.alpha = 1f;
+
+        // Espera visível
+        yield return new WaitForSecondsRealtime(1.5f);
+
+        // Fade Out
+        float fadeOutDuration = 0.5f;
+        for (float t = 0; t < fadeOutDuration; t += Time.unscaledDeltaTime)
+        {
+            canvasGroup.alpha = 1f - (t / fadeOutDuration);
+            yield return null;
+        }
+        canvasGroup.alpha = 0f;
+
+        saveFeedbackText.SetActive(false);
     }
-    canvasGroup.alpha = 1f;
-
-    // Espera visível
-    yield return new WaitForSecondsRealtime(1.5f);
-
-    // Fade Out
-    float fadeOutDuration = 0.5f;
-    for (float t = 0; t < fadeOutDuration; t += Time.unscaledDeltaTime)
-    {
-        canvasGroup.alpha = 1f - (t / fadeOutDuration);
-        yield return null;
-    }
-    canvasGroup.alpha = 0f;
-
-    saveFeedbackText.SetActive(false);
-}
 
 
     public void LoadGame()
@@ -82,4 +89,19 @@ private IEnumerator ShowSaveFeedback()
             Debug.Log("Nenhum save encontrado.");
         }
     }
+    
+    public void LoadGameFromMenu()
+{
+    if (File.Exists(saveLocation))
+    {
+        SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));
+        SceneManager.LoadScene(saveData.sceneName);
+        Debug.Log("Cena carregada: " + saveData.sceneName);
+    }
+    else
+    {
+        Debug.Log("Nenhum save encontrado. Botão CONTINUAR deve estar desativado.");
+    }
+}
+
 }

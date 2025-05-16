@@ -43,7 +43,7 @@ public class Puzzle_Sala1 : MonoBehaviour
         textoFeedback.gameObject.SetActive(false);
         inputResposta.text = "";
         botaoAvancar.gameObject.SetActive(false);
-        SceneManager.LoadScene("Esther"); // Volta para a cena inicial
+        SceneManager.LoadScene("Sala I"); // Volta para a cena inicial
 
     }
 
@@ -51,6 +51,7 @@ public class Puzzle_Sala1 : MonoBehaviour
     {
         Debug.Log("Avançar para a próxima parte do jogo!");
         PuzzleProgressManager.Instance.MarkSolved("Puzzle_Sala1");
-        SceneManager.LoadScene("Esther"); // Volta para a cena inicial
+        SceneManager.LoadScene("Sala I"); // Volta para a cena inicial
     }
 }
+ 

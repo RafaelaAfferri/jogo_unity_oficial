@@ -3,10 +3,10 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform player;
-    public float minXViewport = 0.2f;
-    public float maxXViewport = 0.8f;
-    public float minYViewport = 0.2f;
-    public float maxYViewport = 0.8f;
+    public float minXViewport = 0.4f;
+    public float maxXViewport = 0.6f;
+    public float minYViewport = 0.4f;
+    public float maxYViewport = 0.6f;
     public float smoothTime = 0.1f;
 
     private Vector3 velocity = Vector3.zero;

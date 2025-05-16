@@ -10,7 +10,7 @@ public class Puzzle_Sala1 : MonoBehaviour
     public TextMeshProUGUI textoFeedback;
 
 
-    private string respostaCorreta = "1315";
+    private string respostaCorreta = "1618";
     public GameObject painelPuzzle;
 
     public void Start(){
@@ -27,8 +27,12 @@ public class Puzzle_Sala1 : MonoBehaviour
             textoFeedback.gameObject.SetActive(true);
             botaoAvancar.gameObject.SetActive(true);
         }
-        else
+        else if (System.Text.RegularExpressions.Regex.IsMatch(respostaDoJogador, @"[a-zA-Z]"))
         {
+            textoFeedback.text = "A resposta não deve conter letras.";
+            textoFeedback.gameObject.SetActive(true);
+        }
+        else{
             textoFeedback.text = "Não parece estar certo...";
             textoFeedback.gameObject.SetActive(true);
         }
@@ -46,6 +50,7 @@ public class Puzzle_Sala1 : MonoBehaviour
     public void Avancar()
     {
         Debug.Log("Avançar para a próxima parte do jogo!");
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle_Sala1");
         SceneManager.LoadScene("Esther"); // Volta para a cena inicial
     }
 }

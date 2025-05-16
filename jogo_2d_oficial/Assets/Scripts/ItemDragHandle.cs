@@ -8,25 +8,34 @@ public class ItemDragHandle : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     Transform originalParent;
     CanvasGroup canvasGroup;
 
+    RectTransform rectTransform;
+
     public int itemId; // ID do item, se necessário
 
     // Start is called before the first frame update
     void Start()
     {
         canvasGroup = GetComponent<CanvasGroup>();
+        rectTransform = GetComponent<RectTransform>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         originalParent = transform.parent; //Save OG parent
         transform.SetParent(transform.root); //Above other canvas'
+        transform.position = Vector2.zero; //Center of screen
         canvasGroup.blocksRaycasts = false;
         canvasGroup.alpha = 0.6f; //Semi-transparent during drag
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        transform.position = eventData.position; //Follow the mouse
+        print($"transform.position{transform.localPosition}");
+        //Magica para o drag funcionar.
+        transform.localPosition = new Vector3(
+            Input.mousePosition.x - rectTransform.rect.width/2,
+            Input.mousePosition.y - 300, 
+            0); //Follow the mouse
     }
 
     public void OnEndDrag(PointerEventData eventData)

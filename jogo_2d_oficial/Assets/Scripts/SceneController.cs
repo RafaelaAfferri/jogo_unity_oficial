@@ -5,7 +5,7 @@ public class SceneController : MonoBehaviour
 {
     public string sala1 = "Sala I";
     public string config = "Config - gubs";
-    public string controls = "Controles - gubs";
+    public string intro = "Intro";
 
     public void Jogar()
     {
@@ -17,8 +17,8 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(config);
     }
 
-    public void Controls()
+    public void Intro()
     {
-        SceneManager.LoadScene(controls);
+        SceneManager.LoadScene(intro);
     }
 }

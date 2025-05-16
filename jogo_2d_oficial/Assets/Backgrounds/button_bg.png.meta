@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e6e5ce72a707dd7408ccb4e5ff16ed4d
+guid: df7e9e52bb55d83458c3258bb05ce260
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4074873376599956014
-    second: Aperte E (1)_0
+      213: 4498158550220992037
+    second: button_bg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Aperte E (1)_0
+      name: button_bg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1500
-        height: 1500
+        width: 738
+        height: 304
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d5201be0442377c0800000000000000
-      internalID: -4074873376599956014
+      spriteID: 52eee418e5bac6e30800000000000000
+      internalID: 4498158550220992037
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Aperte E (1)_0: -4074873376599956014
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

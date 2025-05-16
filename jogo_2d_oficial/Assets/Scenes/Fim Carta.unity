@@ -252,7 +252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: REINO DE VALDAREN
+  m_text: ECOS QUE RESTARAM
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
   m_sharedMaterial: {fileID: 7217267342078018795, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 596445005}
-  fullText: REINO DE VALDAREN
+  fullText: ECOS QUE RESTARAM
   typingSpeed: 0.05
 --- !u!1 &613280323
 GameObject:
@@ -381,8 +381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -46}
-  m_SizeDelta: {x: 1186.0951, y: 409.3914}
+  m_AnchoredPosition: {x: 0.00008799, y: -32}
+  m_SizeDelta: {x: 1186.0951, y: 378.9761}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &613280325
 MonoBehaviour:
@@ -404,12 +404,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Um territ\xF3rio que prosperou sob tratados silenciosos \u2014 e desaparecimentos
-    convenientes. \n\nQuando Sir Darius Caelan, inquisidor real, foi enviado ao Castelo
-    de Ravencroft para investigar a morte da nobre Lady Helene, ele nunca voltou.\n\nO
-    caso foi arquivado. A Rosa Negra selou os corredores do castelo com mem\xF3rias
-    distorcidas e portas encantadas.\n\nMeses depois, um envelope chega at\xE9 Elyan
-    Barrow. Dentro, apenas uma anota\xE7\xE3o com a caligrafia de Darius..."
+  m_text: "Agora, Elyan parte sozinho, sem ordens formais, guiado apenas por vest\xEDgios
+    de um antigo irm\xE3o de armas \u2014 e pela sensa\xE7\xE3o de que o sil\xEAncio
+    em torno da Rosa Negra custou mais do que um nome esquecido.\n\nCada passo o
+    afasta do mundo que conhece e o aproxima de Ravencroft, onde as pedras sussurram
+    nomes que a hist\xF3ria tentou apagar.\n\nO port\xE3o o aguarda. Trancado n\xE3o
+    por fechaduras, mas por segredos.\n\nE l\xE1 dentro, o castelo respira."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
   m_sharedMaterial: {fileID: 7217267342078018795, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
@@ -501,14 +501,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 613280325}
-  fullText: "Um territ\xF3rio que prosperou sob tratados silenciosos \u2014 e desaparecimentos
-    convenientes. \n\nQuando Sir Darius Caelan, inquisidor real, foi enviado ao Castelo
-    de Ravencroft para investigar a morte da nobre Lady Helene, ele nunca voltou.\n\nO
-    caso foi arquivado. A Rosa Negra selou os corredores do castelo com mem\xF3rias
-    distorcidas e portas encantadas.\n\nMeses depois, um envelope chega at\xE9 Elyan
-    Barrow. Dentro, apenas uma anota\xE7\xE3o com a caligrafia de Darius..."
+  fullText: "Agora, Elyan parte sozinho, sem ordens formais, guiado apenas por vest\xEDgios
+    de um antigo irm\xE3o de armas \u2014 e pela sensa\xE7\xE3o de que o sil\xEAncio
+    em torno da Rosa Negra custou mais do que um nome esquecido.\n\nCada passo o
+    afasta do mundo que conhece e o aproxima de Ravencroft, onde as pedras sussurram
+    nomes que a hist\xF3ria tentou apagar.\n\nO port\xE3o o aguarda. Trancado n\xE3o
+    por fechaduras, mas por segredos.\n\nE l\xE1 dentro, o castelo respira."
   typingSpeed: 0.03
   startDelay: 0
+  sceneToLoad: Sala I
   enterPrompt: {fileID: 1799533450}
 --- !u!1 &925692433
 GameObject:
@@ -875,7 +876,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022888, y: -310.46}
+  m_AnchoredPosition: {x: 0.000022888, y: -286}
   m_SizeDelta: {x: 589.7, y: 44.8313}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1799533452
@@ -891,7 +892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1799533453}
-  fullText: Pressione ENTER para continuar
+  fullText: Pressione ENTER para jogar
   typingSpeed: 0.04
 --- !u!114 &1799533453
 MonoBehaviour:
@@ -913,7 +914,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pressione ENTER para continuar
+  m_text: Pressione ENTER para jogar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
   m_sharedMaterial: {fileID: 7217267342078018795, guid: c6987562f6ee79b4ca80a16377135145, type: 2}

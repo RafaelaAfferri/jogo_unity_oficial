@@ -22,7 +22,7 @@ public class PuzzleTimer : MonoBehaviour
     {
         timerText.gameObject.SetActive(false);
         
-         if (HudVidaController.Instance != null)
+        if (HudVidaController.Instance != null)
         {
             hudVidaController = HudVidaController.Instance;
         }

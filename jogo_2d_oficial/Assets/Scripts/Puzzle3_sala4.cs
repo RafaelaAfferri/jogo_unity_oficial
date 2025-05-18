@@ -20,6 +20,9 @@ public class Puzzle3_sala4 : MonoBehaviour
     public Button avancarBotao;
 
     private PuzzleSaver puzzle;
+    public AudioSource audioSource; // Referência ao AudioSource
+    public AudioClip somErro; // Referência ao som de erro
+    public AudioClip somAcerto; // Referência ao som de acerto
 
 
     // Sequência correta esperada (índice base 0 → botoes[2], botoes[3], botoes[0])
@@ -112,6 +115,7 @@ public class Puzzle3_sala4 : MonoBehaviour
     {
         if (ordemClicada.Count != sequenciaCorreta.Length)
         {
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Isso não parece estar certo... Lembre-se tudo na vida tem uma ordem!";
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
             return;
@@ -122,11 +126,12 @@ public class Puzzle3_sala4 : MonoBehaviour
             if (ordemClicada[i] != sequenciaCorreta[i])
             {
                 textoFeedback.text = "Isso não parece estar certo... Lembre-se tudo na vida tem uma ordem!";
+                audioSource.PlayOneShot(somErro); // Toca o som de erro
                 textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
                 return;
             }
         }
-
+        audioSource.PlayOneShot(somAcerto); // Toca o som de acerto
         textoFeedback.text = "Correto! Você conseguiu!";
         avancarBotao.gameObject.SetActive(true); // Ativa o botão de avançar
         textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta correta

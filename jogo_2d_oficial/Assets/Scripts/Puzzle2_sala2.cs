@@ -16,6 +16,10 @@ public class Puzzle2_sala2 : MonoBehaviour
 
     private PuzzleSaver puzzle;
 
+    public AudioSource audioSource;
+    public AudioClip somErro;
+    public AudioClip somAcerto;
+
     public void abrirLivro1()
     {
         textoLivro.text = "Três homens lutaram pelo duelo proibido. Apenas um foi enterrado.";
@@ -65,22 +69,26 @@ public class Puzzle2_sala2 : MonoBehaviour
 
         if (codigoDigitado == respostaCorreta)
         {
+            audioSource.PlayOneShot(somAcerto); // Toca o som de acerto
             textoFeedback.text = "Correto!";
             textoFeedback.gameObject.SetActive(true);
             botaoAvancar.gameObject.SetActive(true);
         }
         else if (System.Text.RegularExpressions.Regex.IsMatch(codigoDigitado, @"[a-zA-Z]"))
         {
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "A resposta não deve conter letras.";
             textoFeedback.gameObject.SetActive(true);
         }
         else if (codigoDigitado.Length == 6)
         {
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Não parece estar certo...";
             textoFeedback.gameObject.SetActive(true);
         }
         else
         {
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Ainda há números perdidos....";
             textoFeedback.gameObject.SetActive(true);
         }

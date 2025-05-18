@@ -26,6 +26,9 @@ public class Puzzle2_sala4 : MonoBehaviour
     public TextMeshProUGUI textoFeedback; // Referência ao texto de feedback
 
     private PuzzleSaver puzzle;
+    public AudioSource audioSource; // Referência ao AudioSource
+    public AudioClip somErro; // Referência ao som de erro
+    public AudioClip somAcerto; // Referência ao som de acerto
 
     void Start()
     {
@@ -155,7 +158,7 @@ public class Puzzle2_sala4 : MonoBehaviour
             Debug.Log($"incorreto qunatidade");
             Debug.Log($"ligacoesFeitas: {ligacoesFeitas.Count}");
             Debug.Log($"ligacoesCorretas: {ligacoesCorretas.Count}");
-
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Não parece estar certo..."; // Atualiza o feedback de resposta incorreta
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
             return;
@@ -176,6 +179,7 @@ public class Puzzle2_sala4 : MonoBehaviour
         if (corretas == ligacoesCorretas.Count)
         {
             Debug.Log($"correto");
+            audioSource.PlayOneShot(somAcerto); // Toca o som de acerto
             textoFeedback.text = "Correto!"; // Atualiza o feedback de resposta correta
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta correta
             botaoAvancar.gameObject.SetActive(true); // Ativa o botão de avançar
@@ -184,6 +188,7 @@ public class Puzzle2_sala4 : MonoBehaviour
         else
         {
             Debug.Log($"incorreto");
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Não parece estar certo..."; // Atualiza o feedback de resposta incorreta
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
         }

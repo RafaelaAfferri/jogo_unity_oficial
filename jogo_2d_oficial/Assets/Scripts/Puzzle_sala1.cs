@@ -13,12 +13,19 @@ public class Puzzle_Sala1 : MonoBehaviour
 
     private string respostaCorreta = "7513";
     public GameObject painelPuzzle;
+    
+    public AudioSource audioSource;
 
-    public void Start() {
+    public AudioClip somErro;
+
+    public AudioClip somAcerto;
+
+    public void Start()
+    {
         puzzle = PuzzleSaver.Instance;
 
 
-            if (!puzzle.puzzle1_sala1)
+        if (!puzzle.puzzle1_sala1)
         {
 
             botaoAvancar.gameObject.SetActive(false);
@@ -35,22 +42,27 @@ public class Puzzle_Sala1 : MonoBehaviour
             textoFeedback.text = "Correto!";
             textoFeedback.gameObject.SetActive(true);
             botaoAvancar.gameObject.SetActive(true);
+            audioSource.PlayOneShot(somAcerto);
         }
         else if (System.Text.RegularExpressions.Regex.IsMatch(respostaDoJogador, @"[a-zA-Z]"))
         {
             textoFeedback.text = "A resposta não deve conter letras.";
             textoFeedback.gameObject.SetActive(true);
+            audioSource.PlayOneShot(somErro);
         }
         //se nao incluir numero 7,5,1,3
-        else if (!respostaDoJogador.Contains("7") || !respostaDoJogador.Contains("5") || !respostaDoJogador.Contains("1") || !respostaDoJogador.Contains("3")) {
+        else if (!respostaDoJogador.Contains("7") || !respostaDoJogador.Contains("5") || !respostaDoJogador.Contains("1") || !respostaDoJogador.Contains("3"))
+        {
 
             textoFeedback.text = "A resposta deve conter os números 7, 5, 1 e 3.";
             textoFeedback.gameObject.SetActive(true);
+            audioSource.PlayOneShot(somErro);
         }
         else
         {
             textoFeedback.text = "Não parece estar certo...";
             textoFeedback.gameObject.SetActive(true);
+            audioSource.PlayOneShot(somErro);
         }
     }
 

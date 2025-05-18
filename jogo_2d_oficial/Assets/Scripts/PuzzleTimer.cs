@@ -14,7 +14,7 @@ public class PuzzleTimer : MonoBehaviour
     public float duration = 10f;
 
     [Header("Dependencies")]
-    public HudVidaController hudVidaController;
+    private HudVidaController hudVidaController;
 
     private Coroutine timerRoutine;
 
@@ -22,7 +22,14 @@ public class PuzzleTimer : MonoBehaviour
     {
         timerText.gameObject.SetActive(false);
         
-        
+         if (HudVidaController.Instance != null)
+        {
+            hudVidaController = HudVidaController.Instance;
+        }
+        else
+        {
+            Debug.LogWarning("HUD Vida Controller não encontrado!");
+        }
     }
 
     public void StartPuzzle()

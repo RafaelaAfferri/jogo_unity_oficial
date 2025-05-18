@@ -29,9 +29,9 @@ public class Puzzel1_sala3 : MonoBehaviour
     public void Start()
     {
 
-        // puzzle = PuzzleSaver.Instance;
-        // if (!puzzle.puzzle1_sala3)
-        // {
+        puzzle = PuzzleSaver.Instance;
+        if (!puzzle.puzzle1_sala3)
+        {
             //loop do som de tick
             audioSource2.clip = tick;
             audioSource2.loop = true;
@@ -41,7 +41,7 @@ public class Puzzel1_sala3 : MonoBehaviour
             botaoAvancar.gameObject.SetActive(false);
             textoFeedback.gameObject.SetActive(false);
 
-        // }
+        }
     }
 
 

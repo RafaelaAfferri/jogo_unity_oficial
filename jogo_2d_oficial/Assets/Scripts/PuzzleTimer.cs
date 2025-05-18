@@ -2,13 +2,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PuzzleTimer : MonoBehaviour
 {
     [Header("UI")]
-    public Button startButton;
-    public GameObject puzzlePanel;
-    public Button resolverButton;
+    
     public TMP_Text timerText;
 
     [Header("Settings")]
@@ -21,24 +20,22 @@ public class PuzzleTimer : MonoBehaviour
 
     void Awake()
     {
-        puzzlePanel.SetActive(false);
         timerText.gameObject.SetActive(false);
-        startButton.onClick.AddListener(StartPuzzle);
-        resolverButton.onClick.AddListener(OnResolverClicked);
+        
+        
     }
 
-    void StartPuzzle()
+    public void StartPuzzle()
     {
-        puzzlePanel.SetActive(true);
         timerText.gameObject.SetActive(true);
         if (timerRoutine != null) StopCoroutine(timerRoutine);
         timerRoutine = StartCoroutine(Timer());
     }
 
-    void OnResolverClicked()
+    public void OnResolverClicked()
     {
-        puzzlePanel.SetActive(false);
-        timerText.gameObject.SetActive(false);
+        
+        timerText.text = "Acabou o tempo!";
         if (timerRoutine != null)
         {
             StopCoroutine(timerRoutine);
@@ -60,8 +57,8 @@ public class PuzzleTimer : MonoBehaviour
             yield return null;
         }
         timerRoutine = null;
-        puzzlePanel.SetActive(false);
         timerText.gameObject.SetActive(false);
         hudVidaController.PerderVida();
+        SceneManager.LoadScene("Sala III");
     }
 }

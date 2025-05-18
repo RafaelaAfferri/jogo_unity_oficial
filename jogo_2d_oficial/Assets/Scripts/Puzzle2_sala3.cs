@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Puzzle2_sala3 : MonoBehaviour
 {
@@ -15,11 +16,12 @@ public class Puzzle2_sala3 : MonoBehaviour
 
     public Button botaoAvancar; // Referência ao botão de fechar o puzzle
 
+    private PuzzleSaver puzzle;
 
 
-    
-    
-    public void alavanca1(){
+
+
+    public void alavanca1() {
         resposta[0] = 1 - resposta[0]; // alterna entre 0 e 1
         alavancaImagens[0].texture = (resposta[0] == 1) ? spriteON : spriteOFF;
         Debug.Log("Alavanca 1 agora está em " + resposta[0]);
@@ -53,9 +55,14 @@ public class Puzzle2_sala3 : MonoBehaviour
 
     void Start()
     {
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
-        botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+        puzzle = PuzzleSaver.Instance;
+        if (!puzzle.puzzle2_sala3)
+        {
+            textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+            botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
 
+        }
+        
         resposta[0] = 1;
         resposta[1] = 1;
         resposta[2] = 1;
@@ -88,14 +95,16 @@ public class Puzzle2_sala3 : MonoBehaviour
 
     public void Voltar()
     {
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
-        botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+        SceneManager.LoadScene("Sala III"); // Volta para a cena inicial
         // Aqui você pode adicionar a lógica para voltar ao jogo, como fechar o painel do puzzle
         Debug.Log("Voltar para a parte anterior do jogo!");
     }
 
     public void Avancar(){
         // Aqui você pode adicionar a lógica para avançar no jogo, como abrir uma porta ou trocar de cena
+        puzzle.puzzle2_sala3 = true;
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle2_Sala3");
+        SceneManager.LoadScene("Sala III"); // Avança para a próxima sala
         Debug.Log("Avançar para a próxima parte do jogo!");
     }
 

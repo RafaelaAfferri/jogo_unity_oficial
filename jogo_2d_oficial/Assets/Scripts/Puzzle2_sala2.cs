@@ -14,6 +14,8 @@ public class Puzzle2_sala2 : MonoBehaviour
     public GameObject panel;
     public Button botaoAvancar;
 
+    private PuzzleSaver puzzle;
+
     public void abrirLivro1()
     {
         textoLivro.text = "Três homens lutaram pelo duelo proibido. Apenas um foi enterrado.";
@@ -36,6 +38,21 @@ public class Puzzle2_sala2 : MonoBehaviour
     {
         textoLivro.text = "Os documentos estavam datados de maio. A chave estava escrita com tinta vermelha no rodapé.";
         textoLivro.gameObject.SetActive(true);
+    }
+
+    void Start()
+    {
+        
+        puzzle = PuzzleSaver.Instance;
+        if (!puzzle.puzzle2_sala2)
+        {
+            foreach (var campo in camposCodigo)
+            {
+                campo.text = "";
+            }
+            botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+            textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+        }
     }
 
     public void Verificar()
@@ -71,19 +88,15 @@ public class Puzzle2_sala2 : MonoBehaviour
 
     public void Voltar()
     {
-        SceneManager.LoadScene("Cena Ana"); // Volta para a cena inicial
-
-        foreach (var campo in camposCodigo)
-        {
-            campo.text = "";
-        }
-
+        SceneManager.LoadScene("Sala II"); // Volta para a cena inicial
 
     }
 
     public void Avancar()
     {
-        SceneManager.LoadScene("Cena Ana"); // Volta para a cena inicial
+        puzzle.puzzle2_sala2 = true;
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle2_Sala2");
+        SceneManager.LoadScene("Sala II"); // Volta para a cena inicial
         Debug.Log("Avançar para a próxima parte do jogo!");
     }
 }

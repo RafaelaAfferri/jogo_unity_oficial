@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PuzzleManager : MonoBehaviour
 {
@@ -12,11 +14,18 @@ public class PuzzleManager : MonoBehaviour
 
     public TextMeshProUGUI anoMorte; // Referência ao texto de instruções
 
+    private PuzzleSaver puzzle;
 
     public void Start()
     {
-        botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+        puzzle = PuzzleSaver.Instance;
+
+        if (!puzzle.puzzle1_sala2)
+        {
+            botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+            textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+        }
+        
     }
 
 
@@ -54,13 +63,14 @@ public class PuzzleManager : MonoBehaviour
 
     public void Voltar()
     {
-        panel.SetActive(false); // Desativa o painel do puzzle
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
-        
+        SceneManager.LoadScene("Sala II"); // Volta para a cena inicial
+                
     }
 
     public void Avancar(){
-        panel.SetActive(false); // Desativa o painel do puzzle
+        puzzle.puzzle1_sala2 = true;
+        SceneManager.LoadScene("Sala II"); // Volta para a cena inicial
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle1_Sala2");
         // Aqui você pode adicionar a lógica para avançar no jogo, como abrir uma porta ou trocar de cena
         Debug.Log("Avançar para a próxima parte do jogo!");
     }

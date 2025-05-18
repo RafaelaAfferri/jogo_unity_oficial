@@ -29,9 +29,12 @@ public class Puzzle1_sala5 : MonoBehaviour
     public Button reButton;
     public Button miButton;
 
+    private HudVidaController hudController;
+
 
     void Start()
     {
+        hudController = HudVidaController.Instance;
         puzzle = PuzzleSaver.Instance;
         if (!puzzle.puzzle1_sala5)
         {

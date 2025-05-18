@@ -30,9 +30,12 @@ public class Puzzle2_sala4 : MonoBehaviour
     public AudioClip somErro; // Referência ao som de erro
     public AudioClip somAcerto; // Referência ao som de acerto
 
+    private HudVidaController hudController;
+
     void Start()
     {
         puzzle = PuzzleSaver.Instance;
+        hudController = HudVidaController.Instance;
         if (!puzzle.puzzle2_sala4)
         {
             textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
@@ -155,6 +158,7 @@ public class Puzzle2_sala4 : MonoBehaviour
 
         if (ligacoesFeitas.Count != ligacoesCorretas.Count)
         {
+            hudController.PerderVida(); // Remove uma vida
             Debug.Log($"incorreto qunatidade");
             Debug.Log($"ligacoesFeitas: {ligacoesFeitas.Count}");
             Debug.Log($"ligacoesCorretas: {ligacoesCorretas.Count}");
@@ -187,6 +191,7 @@ public class Puzzle2_sala4 : MonoBehaviour
         }
         else
         {
+            hudController.PerderVida(); // Remove uma vida
             Debug.Log($"incorreto");
             audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Não parece estar certo..."; // Atualiza o feedback de resposta incorreta

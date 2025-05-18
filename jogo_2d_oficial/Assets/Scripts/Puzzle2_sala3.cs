@@ -23,6 +23,7 @@ public class Puzzle2_sala3 : MonoBehaviour
     public AudioClip somErro; // Referência ao som de erro
     public AudioClip somAcerto; // Referência ao som de acerto
 
+    private HudVidaController hudController;
 
     public void alavanca1()
     {
@@ -59,6 +60,8 @@ public class Puzzle2_sala3 : MonoBehaviour
 
     void Start()
     {
+
+        hudController = HudVidaController.Instance;
         puzzle = PuzzleSaver.Instance;
         if (!puzzle.puzzle2_sala3)
         {
@@ -81,8 +84,10 @@ public class Puzzle2_sala3 : MonoBehaviour
     }
 
     public void Verificar(){
+        
         //reposta correta (13) - 0, 1, 1, 0, 1
-        if (resposta[0] == 0 && resposta[1] == 1 && resposta[2] == 1 && resposta[3] == 0 && resposta[4] == 1){
+        if (resposta[0] == 0 && resposta[1] == 1 && resposta[2] == 1 && resposta[3] == 0 && resposta[4] == 1)
+        {
             Debug.Log("Puzzle resolvido corretamente!");
             audioSource.PlayOneShot(somAcerto); // Toca o som de acerto
             textoFeedback.text = "Correto!"; // Atualiza o feedback de resposta correta
@@ -90,7 +95,9 @@ public class Puzzle2_sala3 : MonoBehaviour
             botaoAvancar.gameObject.SetActive(true); // Ativa o botão de avançar
             // Aqui você pode adicionar o código para avançar para a próxima parte do jogo
         }
-        else{
+        else
+        {
+            hudController.PerderVida();
             audioSource.PlayOneShot(somErro); // Toca o som de erro
             Debug.Log("Puzzle incorreto!");
             textoFeedback.text = "Não parece estar certo..."; // Atualiza o feedback de resposta incorreta

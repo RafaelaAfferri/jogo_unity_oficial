@@ -34,15 +34,15 @@ public class HUDroot : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Lista de cenas onde o HUD deve ficar escondido
-        string[] cenasSemHUD = { "rafa-sala1-puzzle1", "rafa-sala2-puzzle1", "rafa-sala2-puzzle2", "rafa-sala3-puzzle1", "rafa-sala3-puzzle2", "rafa-sala4-puzzle1", "rafa-sala4-puzzle2", "rafa-sala4-puzzle3", "rafa-salaSecreta-puzzle1", "rafa-sala5-puzzle1", "Menu" };
+        string[] cenasComHud = {"Sala I", "Sala II", "Sala III", "Sala IV", "Sala V", "Sala VI", "Sala 6", "Sala Secreta"};
 
-        if (System.Array.Exists(cenasSemHUD, nome => nome == scene.name))
+        if (System.Array.Exists(cenasComHud, nome => nome == scene.name))
         {
-            canvasHUD.SetActive(false);
+            canvasHUD.SetActive(true);
         }
         else
         {
-            canvasHUD.SetActive(true);
+            canvasHUD.SetActive(false);
         }
 
     }

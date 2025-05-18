@@ -19,10 +19,12 @@ public class PuzzleManager : MonoBehaviour
     public AudioSource audioSource; // Referência ao AudioSource
     public AudioClip somErro; // Referência ao som de erro
     public AudioClip somAcerto; // Referência ao som de acerto
+    private HudVidaController hudController;
 
     public void Start()
     {
         puzzle = PuzzleSaver.Instance;
+        hudController = HudVidaController.Instance;
 
         if (!puzzle.puzzle1_sala2)
         {
@@ -51,6 +53,7 @@ public class PuzzleManager : MonoBehaviour
             ItemDragHandle item = slot.currentItem.GetComponent<ItemDragHandle>();
             if (item.itemId != slot.slotId)
             {
+                hudController.PerderVida(); // Chama o método de perda
                 audioSource.PlayOneShot(somErro); // Toca o som de erro
                 Debug.Log($"Item {item.itemId} está no slot {slot.slotId} → incorreto");
                 textoFeedback.text = "Não parece estar certo..."; // Atualiza o feedback de resposta incorreta

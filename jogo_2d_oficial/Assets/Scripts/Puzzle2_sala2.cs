@@ -20,6 +20,8 @@ public class Puzzle2_sala2 : MonoBehaviour
     public AudioClip somErro;
     public AudioClip somAcerto;
 
+    private HudVidaController hudController;
+
     public void abrirLivro1()
     {
         textoLivro.text = "Três homens lutaram pelo duelo proibido. Apenas um foi enterrado.";
@@ -46,6 +48,8 @@ public class Puzzle2_sala2 : MonoBehaviour
 
     void Start()
     {
+
+        hudController = HudVidaController.Instance;
         
         puzzle = PuzzleSaver.Instance;
         if (!puzzle.puzzle2_sala2)
@@ -79,18 +83,21 @@ public class Puzzle2_sala2 : MonoBehaviour
             audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "A resposta não deve conter letras.";
             textoFeedback.gameObject.SetActive(true);
+            hudController.PerderVida();
         }
         else if (codigoDigitado.Length == 6)
         {
             audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Não parece estar certo...";
             textoFeedback.gameObject.SetActive(true);
+            hudController.PerderVida();
         }
         else
         {
             audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Ainda há números perdidos....";
             textoFeedback.gameObject.SetActive(true);
+            hudController.PerderVida();
         }
     }
 

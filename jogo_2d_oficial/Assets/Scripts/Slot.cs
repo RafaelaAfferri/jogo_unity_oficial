@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class Slot : MonoBehaviour
 {
-
+ 
+    public string acceptedTag; // Tag do objeto aceito no slot
     public GameObject currentItem; // O item que está atualmente no slot
 
     public int slotId;
-    
-    public string acceptedTag = ""; // A tag que o slot aceita (se vazio, aceita qualquer tag)
 
 }

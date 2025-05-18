@@ -13645,7 +13645,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1914916912}
   - component: {fileID: 1914916911}
-  - component: {fileID: 1914916910}
   - component: {fileID: 1914916913}
   - component: {fileID: 1914916914}
   m_Layer: 0
@@ -13655,14 +13654,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1914916910
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914916909}
-  m_Enabled: 1
 --- !u!20 &1914916911
 Camera:
   m_ObjectHideFlags: 0
@@ -13786,10 +13777,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1767940235}
-  minXViewport: 0.2
-  maxXViewport: 0.8
-  minYViewport: 0.2
-  maxYViewport: 0.8
   smoothTime: 0.1
 --- !u!1 &2017976573
 GameObject:

@@ -21,13 +21,14 @@ public class EndController : MonoBehaviour
 
     private void Final()
     {
-        if (hudController.vidasAtuais <= 3)
-        {
-            SceneManager.LoadScene("Final Ruim");
-        }
-        else if (puzzle.puzzle1_salaSecreta)
+        
+        if (puzzle.puzzle1_salaSecreta)
         {
             SceneManager.LoadScene("Final Bom");
+        }
+        else if (hudController.vidasAtuais <= 3)
+        {
+            SceneManager.LoadScene("Final Ruim");
         }
         else
         {

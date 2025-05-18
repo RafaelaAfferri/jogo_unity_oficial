@@ -270,10 +270,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1543608284}
-  minXViewport: 0.2
-  maxXViewport: 0.8
-  minYViewport: 0.2
-  maxYViewport: 0.8
   smoothTime: 0.1
 --- !u!1 &339381764
 GameObject:
@@ -2014,6 +2010,10 @@ PrefabInstance:
     - target: {fileID: 2967646140913346936, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
       propertyPath: m_Offset.y
       value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027367355665397163, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
+      propertyPath: m_Intensity
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 8428554780045033583, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
       propertyPath: m_LocalScale.x

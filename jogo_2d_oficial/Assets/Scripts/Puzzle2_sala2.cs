@@ -71,7 +71,7 @@ public class Puzzle2_sala2 : MonoBehaviour
 
     public void Voltar()
     {
-        SceneManager.LoadScene("Cena Ana"); // Volta para a cena inicial
+        SceneManager.LoadScene("Sala I"); // Volta para a cena inicial
 
         foreach (var campo in camposCodigo)
         {
@@ -83,7 +83,8 @@ public class Puzzle2_sala2 : MonoBehaviour
 
     public void Avancar()
     {
-        SceneManager.LoadScene("Cena Ana"); // Volta para a cena inicial
+        SceneManager.LoadScene("Sala I");
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle2_Sala2");
         Debug.Log("Avançar para a próxima parte do jogo!");
     }
 }

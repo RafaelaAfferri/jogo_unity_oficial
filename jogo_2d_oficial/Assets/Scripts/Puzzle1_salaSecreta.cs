@@ -137,7 +137,7 @@ public class Puzzle1_salaSecreta : MonoBehaviour
 
     public void Avancar()
     {
-        SceneManager.LoadScene("Sala Secreta"); // Volta para a sala 2
+        SceneManager.LoadScene("Sala Secreta - congrats"); // Volta para a sala 2
         puzzle.puzzle1_salaSecreta = true; // Marca o puzzle como resolvido
         PuzzleProgressManager.Instance.MarkSolved("Puzzle1_SalaSecreta"); // Marca o puzzle como resolvido no gerenciador de progresso
     }

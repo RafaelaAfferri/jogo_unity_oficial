@@ -1489,7 +1489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &879239169
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1531,8 +1531,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Isto n\xE3o parece certo...."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
+  m_sharedMaterial: {fileID: 7217267342078018795, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2488,8 +2488,8 @@ MonoBehaviour:
     que n\xE3o fala.\nH\xE1 uma ordem que o tempo respeita,\ne v\xEDnculos que s\xF3
     o olhar atento reconhece.\nUnam o que sempre caminhou junto."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
+  m_sharedMaterial: {fileID: 7217267342078018795, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2513,8 +2513,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -11,7 +11,7 @@ public class EndController : MonoBehaviour
     private void Awake()
     {
         puzzle = PuzzleSaver.Instance;
-        hudController = FindObjectOfType<HudVidaController>();
+        hudController = FindFirstObjectByType<HudVidaController>();
         if (hudController == null)
         {
             Debug.LogError("HudVidaController não encontrado na cena.");
@@ -19,7 +19,7 @@ public class EndController : MonoBehaviour
 
     }
 
-    private void Final()
+    public void Final()
     {
         
         if (puzzle.puzzle1_salaSecreta)

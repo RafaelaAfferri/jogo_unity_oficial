@@ -28,9 +28,12 @@ public class Puzzle3_sala4 : MonoBehaviour
     // Sequência correta esperada (índice base 0 → botoes[2], botoes[3], botoes[0])
     public int[] sequenciaCorreta = new int[] { 2, 3, 0 };
 
+    private HudVidaController hudController;
+
     void Start()
     {
         puzzle = PuzzleSaver.Instance;
+        hudController = HudVidaController.Instance;
 
         if (!puzzle.puzzle3_sala4)
         {
@@ -115,6 +118,7 @@ public class Puzzle3_sala4 : MonoBehaviour
     {
         if (ordemClicada.Count != sequenciaCorreta.Length)
         {
+            hudController.PerderVida();
             audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Isso não parece estar certo... Lembre-se tudo na vida tem uma ordem!";
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
@@ -125,6 +129,7 @@ public class Puzzle3_sala4 : MonoBehaviour
         {
             if (ordemClicada[i] != sequenciaCorreta[i])
             {
+                hudController.PerderVida();
                 textoFeedback.text = "Isso não parece estar certo... Lembre-se tudo na vida tem uma ordem!";
                 audioSource.PlayOneShot(somErro); // Toca o som de erro
                 textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta

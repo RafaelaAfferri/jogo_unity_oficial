@@ -20,9 +20,13 @@ public class Puzzle_Sala1 : MonoBehaviour
 
     public AudioClip somAcerto;
 
+    private HudVidaController hudController;
+
     public void Start()
     {
         puzzle = PuzzleSaver.Instance;
+
+        hudController = HudVidaController.Instance;
 
 
         if (!puzzle.puzzle1_sala1)
@@ -49,6 +53,7 @@ public class Puzzle_Sala1 : MonoBehaviour
             textoFeedback.text = "A resposta não deve conter letras.";
             textoFeedback.gameObject.SetActive(true);
             audioSource.PlayOneShot(somErro);
+            hudController.PerderVida();
         }
         //se nao incluir numero 7,5,1,3
         else if (!respostaDoJogador.Contains("7") || !respostaDoJogador.Contains("5") || !respostaDoJogador.Contains("1") || !respostaDoJogador.Contains("3"))
@@ -57,12 +62,14 @@ public class Puzzle_Sala1 : MonoBehaviour
             textoFeedback.text = "A resposta deve conter os números 7, 5, 1 e 3.";
             textoFeedback.gameObject.SetActive(true);
             audioSource.PlayOneShot(somErro);
+            hudController.PerderVida();
         }
         else
         {
             textoFeedback.text = "Não parece estar certo...";
             textoFeedback.gameObject.SetActive(true);
             audioSource.PlayOneShot(somErro);
+            hudController.PerderVida();
         }
     }
 

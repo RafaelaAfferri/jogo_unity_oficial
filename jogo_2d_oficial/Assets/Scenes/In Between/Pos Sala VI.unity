@@ -198,6 +198,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &216705250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 216705252}
+  - component: {fileID: 216705251}
+  m_Layer: 0
+  m_Name: End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &216705251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216705250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efaaef19c2d752418fb55130c8e1ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &216705252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216705250}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 480, y: 300, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &558050466
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +572,7 @@ GameObject:
   - component: {fileID: 1188867071}
   - component: {fileID: 1188867074}
   - component: {fileID: 1188867073}
-  - component: {fileID: 1188867072}
+  - component: {fileID: 1188867075}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -555,30 +599,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000015259, y: -45.609333}
   m_SizeDelta: {x: 1022.183, y: 377.467}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1188867072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1188867070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e238d4ee95c399443a24e62af8d20d31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMeshPro: {fileID: 1188867073}
-  fullText: "O castelo estava em sil\xEAncio novamente.\nMas era um sil\xEAncio diferente
-    \u2014 n\xE3o o que esconde, mas o que resta.\nElyan havia chegado at\xE9 o fim.\nEntre
-    espelhos estilha\xE7ados, nomes riscados e mem\xF3rias que n\xE3o eram suas,
-    ele carregava algo mais pesado que uma espada: a verdade.\n\nAgora, fora dos
-    corredores encantados, a pergunta permanecia...\nO que fazer com ela?"
-  typingSpeed: 0.03
-  startDelay: 0
-  sceneToLoad: 
-  enterPrompt: {fileID: 558050466}
-  typeSound: {fileID: 8300000, guid: bbe6d3a9689ac6d4fad93a96106e3de3, type: 3}
-  audioSource: {fileID: 1206129568}
 --- !u!114 &1188867073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,6 +702,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188867070}
   m_CullTransparentMesh: 1
+--- !u!114 &1188867075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188867070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec38a7ff80a4d74cbf46285ba35b329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 0}
+  fullText: "O castelo estava em sil\xEAncio novamente.\nMas era um sil\xEAncio diferente
+    \u2014 n\xE3o o que esconde, mas o que resta.\nElyan havia chegado at\xE9 o fim.\nEntre
+    espelhos estilha\xE7ados, nomes riscados e mem\xF3rias que n\xE3o eram suas,
+    ele carregava algo mais pesado que uma espada: a verdade.\n\nAgora, fora dos
+    corredores encantados, a pergunta permanecia...\nO que fazer com ela?"
+  typingSpeed: 0.03
+  startDelay: 0
+  enterPrompt: {fileID: 558050466}
+  endController: {fileID: 216705251}
 --- !u!1 &1206129567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1109,6 @@ MonoBehaviour:
   sala1: Sala I
   config: Config - gubs
   intro: Intro
-  prox: 
 --- !u!114 &1837530840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1238,3 +1279,4 @@ SceneRoots:
   - {fileID: 1536686054}
   - {fileID: 1206129569}
   - {fileID: 37344773}
+  - {fileID: 216705252}

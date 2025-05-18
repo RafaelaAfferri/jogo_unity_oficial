@@ -1,53 +1,51 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class TutorialManager : MonoBehaviour
 {
     public TextMeshProUGUI tutorialText;
+    private CanvasGroup canvasGroup;
 
     private int currentStep = 0;
     private bool stepCompleted = false;
 
     private void Start()
     {
+        canvasGroup = tutorialText.GetComponent<CanvasGroup>();
         tutorialText.text = "Use WASD para se movimentar.";
-        Debug.Log("Tutorial iniciado. Texto: " + tutorialText.text);
-
+        canvasGroup.alpha = 1f;
+        tutorialText.gameObject.SetActive(true);
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Tab))
+    {
+        Debug.Log("TAB pressionado");
+    }
+        // Essas entradas funcionam mesmo com Time.timeScale = 0
         switch (currentStep)
         {
             case 0:
-                if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || 
+                if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) ||
                     Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
-                {
                     stepCompleted = true;
-                }
                 break;
 
             case 1:
-                if (Input.GetKeyDown(KeyCode.E))
-                {
+                if (Input.GetKeyDown(KeyCode.Tab))
                     stepCompleted = true;
-                }
                 break;
 
             case 2:
-                if (Input.GetKeyDown(KeyCode.Tab))
-                {
+                if (Input.GetKeyDown(KeyCode.E))
                     stepCompleted = true;
-                }
                 break;
         }
 
         if (stepCompleted)
-        {
             AdvanceStep();
-        }
     }
 
     void AdvanceStep()
@@ -58,21 +56,36 @@ public class TutorialManager : MonoBehaviour
         switch (currentStep)
         {
             case 1:
-                tutorialText.text = "Use E para interagir com os puzzles.";
+                tutorialText.text = "Use TAB para abrir o menu de pause";
                 break;
             case 2:
-                tutorialText.text = "Use TAB para abrir o menu de pause";
+                tutorialText.text = "Use E para interagir com os puzzles.";
                 break;
             case 3:
                 tutorialText.text = "Boa sorte!";
-                StartCoroutine(HideTutorial(2f)); // Esconde depois de 2 segundos
+                StartCoroutine(HideTutorialUnscaled(2f));
                 break;
         }
     }
 
-    IEnumerator HideTutorial(float delay)
+    IEnumerator HideTutorialUnscaled(float duration)
     {
-        yield return new WaitForSeconds(delay);
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+        // Fade out manual
+        float fadeTime = 0.5f;
+        for (float t = 0; t < fadeTime; t += Time.unscaledDeltaTime)
+        {
+            canvasGroup.alpha = 1f - (t / fadeTime);
+            yield return null;
+        }
+
+        canvasGroup.alpha = 0f;
         tutorialText.gameObject.SetActive(false);
     }
 }

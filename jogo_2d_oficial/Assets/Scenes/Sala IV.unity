@@ -14112,6 +14112,7 @@ MonoBehaviour:
   openDistance: 2.5
   animator: {fileID: 1527393881}
   openTrigger: OpenSecretDoor
+  sceneToLoad: Sala Secreta
 --- !u!61 &1527393880
 BoxCollider2D:
   m_ObjectHideFlags: 0

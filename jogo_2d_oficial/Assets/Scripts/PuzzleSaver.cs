@@ -16,6 +16,8 @@ public class PuzzleSaver : MonoBehaviour
 
     public bool puzzle1_sala5 = false;
 
+
+
     void Awake()
     {
         if (Instance == null)

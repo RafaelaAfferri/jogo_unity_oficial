@@ -234,7 +234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022888, y: -310.46}
+  m_AnchoredPosition: {x: 0, y: -452}
   m_SizeDelta: {x: 589.7, y: 44.8313}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &558050468
@@ -365,7 +365,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558050466}
   m_CullTransparentMesh: 1
---- !u!1 &571497494
+--- !u!1 &1108943323
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -373,58 +373,65 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 571497495}
-  - component: {fileID: 571497498}
-  - component: {fileID: 571497497}
-  - component: {fileID: 571497496}
+  - component: {fileID: 1108943324}
+  - component: {fileID: 1108943327}
+  - component: {fileID: 1108943326}
+  - component: {fileID: 1108943325}
   m_Layer: 5
-  m_Name: Title
+  m_Name: Texto III
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &571497495
+  m_IsActive: 0
+--- !u!224 &1108943324
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571497494}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1108943323}
+  m_LocalRotation: {x: 0, y: 0, z: 0.01745245, w: 0.99984777}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1837530843}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000022888, y: 248}
-  m_SizeDelta: {x: 691.3381, y: 80.9099}
+  m_AnchoredPosition: {x: 277, y: 230.91115}
+  m_SizeDelta: {x: 532.8126, y: 282.8477}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &571497496
+--- !u!114 &1108943325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571497494}
+  m_GameObject: {fileID: 1108943323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bdc553dbc16b56469532f13c673d7c5, type: 3}
+  m_Script: {fileID: 11500000, guid: e238d4ee95c399443a24e62af8d20d31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMeshPro: {fileID: 571497497}
-  fullText: "Lacunas na hist\xF3ria"
-  typingSpeed: 0.05
---- !u!114 &571497497
+  textMeshPro: {fileID: 1108943326}
+  fullText: "09/09\nSir Darius pediu que eu ficasse calada at\xE9 ele voltar, mas
+    ele nunca voltou. Ent\xE3o escrevo.\nPorque algu\xE9m precisa lembrar o que foi
+    feito aqui."
+  typingSpeed: 0.03
+  startDelay: 0
+  sceneToLoad: 
+  enterPrompt: {fileID: 1657464558}
+  typeSound: {fileID: 0}
+  audioSource: {fileID: 0}
+--- !u!114 &1108943326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571497494}
+  m_GameObject: {fileID: 1108943323}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -438,17 +445,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lacunas na hist\xF3ria"
+  m_text: "09/09\nSir Darius pediu que eu ficasse calada at\xE9 ele voltar, mas ele
+    nunca voltou. Ent\xE3o escrevo.\nPorque algu\xE9m precisa lembrar o que foi feito
+    aqui."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
-  m_sharedMaterial: {fileID: 7217267342078018795, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7702f0c4b0c6a654582bc47b17ad328c, type: 2}
+  m_sharedMaterial: {fileID: -458625685449471298, guid: 7702f0c4b0c6a654582bc47b17ad328c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4285180105
-  m_fontColor: {r: 0.7882353, g: 0.65882355, b: 0.41568628, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -465,19 +474,19 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
-  m_fontSizeBase: 90
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
-  m_HorizontalAlignment: 2
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -22
+  m_lineSpacing: -10
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -509,13 +518,13 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &571497498
+--- !u!222 &1108943327
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571497494}
+  m_GameObject: {fileID: 1108943323}
   m_CullTransparentMesh: 1
 --- !u!1 &1188867070
 GameObject:
@@ -530,7 +539,7 @@ GameObject:
   - component: {fileID: 1188867073}
   - component: {fileID: 1188867072}
   m_Layer: 5
-  m_Name: Texto
+  m_Name: Texto I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -543,17 +552,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188867070}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.01745245, w: 0.99984777}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1837530843}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -46}
-  m_SizeDelta: {x: 1186.0951, y: 409.3914}
+  m_AnchoredPosition: {x: -403, y: 208.79504}
+  m_SizeDelta: {x: 532.8126, y: 324.6986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188867072
 MonoBehaviour:
@@ -568,21 +577,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1188867073}
-  fullText: "As p\xE1ginas mortu\xE1rias estavam fora de ordem. N\xE3o por descuido
-    \u2014 mas por inten\xE7\xE3o.\nA morte de Lady Helene Ravencroft havia sido
-    deliberadamente encoberta, e Sua data, alterada. Algu\xE9m tentou apag\xE1-la
-    da hist\xF3ria.\n\nEntre fich\xE1rios envelhecidos, Elyan encontra documentos
-    forjados.. e o que parecia ser uma data riscado \xE0 margem: 13/05.\nMas o mais
-    importante n\xE3o \xE9 o que est\xE1 l\xE1 \u2014 \xE9 o que foi removido.\nAs
-    p\xE1ginas faltantes falavam de Edric Ravencroft.. de sacrif\xEDcios..\nE de
-    um ritual interrompido por algu\xE9m que desapareceu logo depois. Nada parecia
-    fazer sentido."
+  fullText: "13/08\nHoje ouvi novamente as vozes no sal\xE3o das tape\xE7arias. Fingem
+    ser conselheiros, mas sei que pertencem \xE0 Rosa. Edric n\xE3o fala comigo desde
+    o decreto. Quando o olho nos retratos, parece que est\xE1 vivo demais."
   typingSpeed: 0.03
   startDelay: 0
-  sceneToLoad: Fragmento II
-  enterPrompt: {fileID: 558050466}
-  typeSound: {fileID: 8300000, guid: bbe6d3a9689ac6d4fad93a96106e3de3, type: 3}
-  audioSource: {fileID: 1206129568}
+  sceneToLoad: 
+  enterPrompt: {fileID: 1950820911}
+  typeSound: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &1188867073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,25 +606,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "As p\xE1ginas mortu\xE1rias estavam fora de ordem. N\xE3o por descuido
-    \u2014 mas por inten\xE7\xE3o.\nA morte de Lady Helene Ravencroft havia sido
-    deliberadamente encoberta, e Sua data, alterada. Algu\xE9m tentou apag\xE1-la
-    da hist\xF3ria.\n\nEntre fich\xE1rios envelhecidos, Elyan encontra documentos
-    forjados.. e o que parecia ser uma data riscado \xE0 margem: 13/05.\nMas o mais
-    importante n\xE3o \xE9 o que est\xE1 l\xE1 \u2014 \xE9 o que foi removido.\nAs
-    p\xE1ginas faltantes falavam de Edric Ravencroft.. de sacrif\xEDcios..\nE de
-    um ritual interrompido por algu\xE9m que desapareceu logo depois. Nada parecia
-    fazer sentido."
+  m_text: "13/08\nHoje ouvi novamente as vozes no sal\xE3o das tape\xE7arias. Fingem
+    ser conselheiros, mas sei que pertencem \xE0 Rosa. Edric n\xE3o fala comigo desde
+    o decreto. Quando o olho nos retratos, parece que est\xE1 vivo demais."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
-  m_sharedMaterial: {fileID: 7217267342078018795, guid: c6987562f6ee79b4ca80a16377135145, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7702f0c4b0c6a654582bc47b17ad328c, type: 2}
+  m_sharedMaterial: {fileID: -458625685449471298, guid: 7702f0c4b0c6a654582bc47b17ad328c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288595929
-  m_fontColor: {r: 0.8509804, g: 0.78039217, b: 0.61960787, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -644,8 +641,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
-  m_HorizontalAlignment: 2
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -690,135 +687,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188867070}
   m_CullTransparentMesh: 1
---- !u!1 &1206129567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1206129569}
-  - component: {fileID: 1206129568}
-  m_Layer: 0
-  m_Name: Audio Source (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1206129568
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206129567}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 85b0f5d8ceec42743a5fae4cec2b2ecf, type: 3}
-  m_Resource: {fileID: 8300000, guid: 85b0f5d8ceec42743a5fae4cec2b2ecf, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.586
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &1206129569
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206129567}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0273795, y: -1.756143, z: 206.30861}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419792319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,6 +908,167 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1657464558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657464559}
+  - component: {fileID: 1657464562}
+  - component: {fileID: 1657464561}
+  - component: {fileID: 1657464560}
+  m_Layer: 5
+  m_Name: Texto IV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1657464559
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657464558}
+  m_LocalRotation: {x: 0, y: 0, z: 0.01745245, w: 0.99984777}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1837530843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 277, y: -74}
+  m_SizeDelta: {x: 532.8126, y: 282.8477}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1657464560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657464558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e238d4ee95c399443a24e62af8d20d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 1657464561}
+  fullText: "23/09\nSe este di\xE1rio foi encontrado, ent\xE3o algu\xE9m atravessou
+    a m\xFAsica. N\xE3o confie nos espelhos. Nem em quem n\xE3o aparece neles. A
+    Rosa Negra n\xE3o floresce. Ela sangra."
+  typingSpeed: 0.03
+  startDelay: 0
+  sceneToLoad: Final Frag 5
+  enterPrompt: {fileID: 558050466}
+  typeSound: {fileID: 0}
+  audioSource: {fileID: 0}
+--- !u!114 &1657464561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657464558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "23/09\nSe este di\xE1rio foi encontrado, ent\xE3o algu\xE9m atravessou
+    a m\xFAsica. N\xE3o confie nos espelhos. Nem em quem n\xE3o aparece neles. A
+    Rosa Negra n\xE3o floresce. Ela sangra."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 7702f0c4b0c6a654582bc47b17ad328c, type: 2}
+  m_sharedMaterial: {fileID: -458625685449471298, guid: 7702f0c4b0c6a654582bc47b17ad328c, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1657464562
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657464558}
+  m_CullTransparentMesh: 1
 --- !u!1 &1837530838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,7 +1083,7 @@ GameObject:
   - component: {fileID: 1837530840}
   - component: {fileID: 1837530839}
   m_Layer: 5
-  m_Name: Sala II
+  m_Name: Diario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1152,8 +1181,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2092889677}
-  - {fileID: 571497495}
   - {fileID: 1188867071}
+  - {fileID: 1950820912}
+  - {fileID: 1108943324}
+  - {fileID: 1657464559}
   - {fileID: 558050467}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1162,6 +1193,167 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1950820911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1950820912}
+  - component: {fileID: 1950820915}
+  - component: {fileID: 1950820914}
+  - component: {fileID: 1950820913}
+  m_Layer: 5
+  m_Name: Texto II
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1950820912
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950820911}
+  m_LocalRotation: {x: 0, y: 0, z: -0.01745245, w: 0.99984777}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1837530843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -413, y: -126}
+  m_SizeDelta: {x: 532.8126, y: 324.6986}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1950820913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950820911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e238d4ee95c399443a24e62af8d20d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 1950820914}
+  fullText: "02/09\nComecei a esconder as p\xE1ginas entre as do di\xE1rio. Costurei
+    algumas com linha escura, se me apressarem, saber\xE3o por onde come\xE7ar. Eles
+    pensam que minha fraqueza \xE9 emocional. Que bom."
+  typingSpeed: 0.03
+  startDelay: 0
+  sceneToLoad: 
+  enterPrompt: {fileID: 1108943323}
+  typeSound: {fileID: 0}
+  audioSource: {fileID: 0}
+--- !u!114 &1950820914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950820911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "02/09\nComecei a esconder as p\xE1ginas entre as do di\xE1rio. Costurei
+    algumas com linha escura, se me apressarem, saber\xE3o por onde come\xE7ar. Eles
+    pensam que minha fraqueza \xE9 emocional. Que bom."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 7702f0c4b0c6a654582bc47b17ad328c, type: 2}
+  m_sharedMaterial: {fileID: -458625685449471298, guid: 7702f0c4b0c6a654582bc47b17ad328c, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1950820915
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950820911}
+  m_CullTransparentMesh: 1
 --- !u!1 &2092889676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,7 +1411,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2210214483857065536, guid: cd5235c3b9f17bf4ba31e1c0b2af74ed, type: 3}
+  m_Sprite: {fileID: -2674465743454611609, guid: ab4fe920042d8d34497ef20be12a9f22, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1244,5 +1436,4 @@ SceneRoots:
   - {fileID: 1419792322}
   - {fileID: 1837530843}
   - {fileID: 1536686054}
-  - {fileID: 1206129569}
   - {fileID: 37344773}

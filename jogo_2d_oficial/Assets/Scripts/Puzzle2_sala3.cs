@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Puzzle2_sala3 : MonoBehaviour
 {
@@ -15,11 +16,16 @@ public class Puzzle2_sala3 : MonoBehaviour
 
     public Button botaoAvancar; // Referência ao botão de fechar o puzzle
 
+    private PuzzleSaver puzzle;
+    
+    public AudioSource audioSource; // Referência ao AudioSource
+
+    public AudioClip somErro; // Referência ao som de erro
+    public AudioClip somAcerto; // Referência ao som de acerto
 
 
-    
-    
-    public void alavanca1(){
+    public void alavanca1()
+    {
         resposta[0] = 1 - resposta[0]; // alterna entre 0 e 1
         alavancaImagens[0].texture = (resposta[0] == 1) ? spriteON : spriteOFF;
         Debug.Log("Alavanca 1 agora está em " + resposta[0]);
@@ -53,9 +59,14 @@ public class Puzzle2_sala3 : MonoBehaviour
 
     void Start()
     {
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
-        botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+        puzzle = PuzzleSaver.Instance;
+        if (!puzzle.puzzle2_sala3)
+        {
+            textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+            botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
 
+        }
+        
         resposta[0] = 1;
         resposta[1] = 1;
         resposta[2] = 1;
@@ -73,12 +84,14 @@ public class Puzzle2_sala3 : MonoBehaviour
         //reposta correta (13) - 0, 1, 1, 0, 1
         if (resposta[0] == 0 && resposta[1] == 1 && resposta[2] == 1 && resposta[3] == 0 && resposta[4] == 1){
             Debug.Log("Puzzle resolvido corretamente!");
+            audioSource.PlayOneShot(somAcerto); // Toca o som de acerto
             textoFeedback.text = "Correto!"; // Atualiza o feedback de resposta correta
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta correta
             botaoAvancar.gameObject.SetActive(true); // Ativa o botão de avançar
             // Aqui você pode adicionar o código para avançar para a próxima parte do jogo
         }
         else{
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             Debug.Log("Puzzle incorreto!");
             textoFeedback.text = "Não parece estar certo..."; // Atualiza o feedback de resposta incorreta
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
@@ -88,14 +101,16 @@ public class Puzzle2_sala3 : MonoBehaviour
 
     public void Voltar()
     {
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
-        botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+        SceneManager.LoadScene("Sala III"); // Volta para a cena inicial
         // Aqui você pode adicionar a lógica para voltar ao jogo, como fechar o painel do puzzle
         Debug.Log("Voltar para a parte anterior do jogo!");
     }
 
     public void Avancar(){
         // Aqui você pode adicionar a lógica para avançar no jogo, como abrir uma porta ou trocar de cena
+        puzzle.puzzle2_sala3 = true;
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle2_Sala3");
+        SceneManager.LoadScene("Sala III"); // Avança para a próxima sala
         Debug.Log("Avançar para a próxima parte do jogo!");
     }
 

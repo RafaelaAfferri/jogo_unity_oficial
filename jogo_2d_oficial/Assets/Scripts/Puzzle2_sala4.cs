@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Puzzle2_sala4 : MonoBehaviour
 {
@@ -19,7 +21,27 @@ public class Puzzle2_sala4 : MonoBehaviour
     private RectTransform primeiroQuadro = null;
     private RectTransform linhaAtual = null;
 
+    public Button botaoAvancar; // Referência ao botão de avançar
+
     public TextMeshProUGUI textoFeedback; // Referência ao texto de feedback
+
+    private PuzzleSaver puzzle;
+    public AudioSource audioSource; // Referência ao AudioSource
+    public AudioClip somErro; // Referência ao som de erro
+    public AudioClip somAcerto; // Referência ao som de acerto
+
+    void Start()
+    {
+        puzzle = PuzzleSaver.Instance;
+        if (!puzzle.puzzle2_sala4)
+        {
+            textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+            botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+            ApagarTodasAsLinhas(); // Limpa todas as linhas criadas
+        }
+
+
+    }
 
     void Update()
     {
@@ -91,7 +113,7 @@ public class Puzzle2_sala4 : MonoBehaviour
         foreach (var linha in linhasCriadas)
         {
             Destroy(linha);
-            
+
         }
         for (int i = 0; i < ligacoesFeitas.Count; i++)
         {
@@ -119,17 +141,6 @@ public class Puzzle2_sala4 : MonoBehaviour
         }
     }
 
-    public void Voltar()
-    {
-        // Aqui você pode adicionar a lógica para avançar para o próximo puzzle ou cena
-        Debug.Log("Avançando para o próximo puzzle...");
-    }
-
-    public void Avancar()
-    {
-        // Aqui você pode adicionar a lógica para avançar para o próximo puzzle ou cena
-        Debug.Log("Avançando para o próximo puzzle...");
-    }
 
     public void VerificarLigacoes(RectTransform quadro1, RectTransform quadro2, RectTransform quadro3, RectTransform quadro4)
     {
@@ -147,11 +158,11 @@ public class Puzzle2_sala4 : MonoBehaviour
             Debug.Log($"incorreto qunatidade");
             Debug.Log($"ligacoesFeitas: {ligacoesFeitas.Count}");
             Debug.Log($"ligacoesCorretas: {ligacoesCorretas.Count}");
-            
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Não parece estar certo..."; // Atualiza o feedback de resposta incorreta
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
             return;
-        }   
+        }
 
         foreach (var correta in ligacoesCorretas)
         {
@@ -168,13 +179,16 @@ public class Puzzle2_sala4 : MonoBehaviour
         if (corretas == ligacoesCorretas.Count)
         {
             Debug.Log($"correto");
+            audioSource.PlayOneShot(somAcerto); // Toca o som de acerto
             textoFeedback.text = "Correto!"; // Atualiza o feedback de resposta correta
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta correta
+            botaoAvancar.gameObject.SetActive(true); // Ativa o botão de avançar
 
         }
         else
         {
             Debug.Log($"incorreto");
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Não parece estar certo..."; // Atualiza o feedback de resposta incorreta
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
         }
@@ -183,6 +197,20 @@ public class Puzzle2_sala4 : MonoBehaviour
     public void Verificar()
     {
         VerificarLigacoes(quadro1, quadro2, quadro3, quadro4);
+    }
+
+    public void Avancar()
+    {
+        puzzle.puzzle2_sala4 = true;
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle2_Sala4");
+        SceneManager.LoadScene("Sala IV"); // Avança para a próxima sala
+    }
+
+    public void Voltar()
+    {
+        SceneManager.LoadScene("Sala III"); // Volta para a cena inicial
+        // Aqui você pode adicionar a lógica para voltar ao jogo, como fechar o painel do puzzle
+        Debug.Log("Voltar para a parte anterior do jogo!");
     }
 
 

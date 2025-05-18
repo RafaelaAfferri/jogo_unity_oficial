@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Puzzle3_sala4 : MonoBehaviour
 {
@@ -18,14 +19,25 @@ public class Puzzle3_sala4 : MonoBehaviour
 
     public Button avancarBotao;
 
+    private PuzzleSaver puzzle;
+    public AudioSource audioSource; // Referência ao AudioSource
+    public AudioClip somErro; // Referência ao som de erro
+    public AudioClip somAcerto; // Referência ao som de acerto
+
 
     // Sequência correta esperada (índice base 0 → botoes[2], botoes[3], botoes[0])
     public int[] sequenciaCorreta = new int[] { 2, 3, 0 };
 
     void Start()
     {
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta
-        avancarBotao.gameObject.SetActive(false); // Desativa o botão de avançar
+        puzzle = PuzzleSaver.Instance;
+
+        if (!puzzle.puzzle3_sala4)
+        {
+            textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta
+            avancarBotao.gameObject.SetActive(false); // Desativa o botão de avançar
+        }
+
         selecionado = new bool[botoes.Length];
 
         for (int i = 0; i < botoes.Length; i++)
@@ -103,6 +115,7 @@ public class Puzzle3_sala4 : MonoBehaviour
     {
         if (ordemClicada.Count != sequenciaCorreta.Length)
         {
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Isso não parece estar certo... Lembre-se tudo na vida tem uma ordem!";
             textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
             return;
@@ -113,13 +126,26 @@ public class Puzzle3_sala4 : MonoBehaviour
             if (ordemClicada[i] != sequenciaCorreta[i])
             {
                 textoFeedback.text = "Isso não parece estar certo... Lembre-se tudo na vida tem uma ordem!";
+                audioSource.PlayOneShot(somErro); // Toca o som de erro
                 textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta incorreta
                 return;
             }
         }
-
+        audioSource.PlayOneShot(somAcerto); // Toca o som de acerto
         textoFeedback.text = "Correto! Você conseguiu!";
         avancarBotao.gameObject.SetActive(true); // Ativa o botão de avançar
         textoFeedback.gameObject.SetActive(true); // Ativa o feedback de resposta correta
+    }
+
+    public void Avancar()
+    {
+        puzzle.puzzle3_sala4 = true;
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle3_Sala4");
+        SceneManager.LoadScene("Sala IV"); // Volta para a cena inicial
+    }
+
+    public void Voltar()
+    {
+        SceneManager.LoadScene("Sala IV"); // Volta para a cena inicial
     }
 }

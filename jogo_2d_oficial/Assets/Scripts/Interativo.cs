@@ -25,6 +25,7 @@ public class Interativo : MonoBehaviour
     {
         if (_isInRange)
         {
+            
             if (!textToShow.activeSelf) textToShow.SetActive(true);
 
             if (Input.GetKeyDown(keyToPress) && !_sceneLoading)
@@ -52,6 +53,7 @@ public class Interativo : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Player entered trigger");
         if (other.CompareTag("Player")) _isInRange = true;
     }
 

@@ -14,6 +14,12 @@ public class Puzzle2_sala2 : MonoBehaviour
     public GameObject panel;
     public Button botaoAvancar;
 
+    private PuzzleSaver puzzle;
+
+    public AudioSource audioSource;
+    public AudioClip somErro;
+    public AudioClip somAcerto;
+
     public void abrirLivro1()
     {
         textoLivro.text = "Três homens lutaram pelo duelo proibido. Apenas um foi enterrado.";
@@ -38,6 +44,21 @@ public class Puzzle2_sala2 : MonoBehaviour
         textoLivro.gameObject.SetActive(true);
     }
 
+    void Start()
+    {
+        
+        puzzle = PuzzleSaver.Instance;
+        if (!puzzle.puzzle2_sala2)
+        {
+            foreach (var campo in camposCodigo)
+            {
+                campo.text = "";
+            }
+            botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+            textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+        }
+    }
+
     public void Verificar()
     {
         string codigoDigitado = "";
@@ -48,22 +69,26 @@ public class Puzzle2_sala2 : MonoBehaviour
 
         if (codigoDigitado == respostaCorreta)
         {
+            audioSource.PlayOneShot(somAcerto); // Toca o som de acerto
             textoFeedback.text = "Correto!";
             textoFeedback.gameObject.SetActive(true);
             botaoAvancar.gameObject.SetActive(true);
         }
         else if (System.Text.RegularExpressions.Regex.IsMatch(codigoDigitado, @"[a-zA-Z]"))
         {
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "A resposta não deve conter letras.";
             textoFeedback.gameObject.SetActive(true);
         }
         else if (codigoDigitado.Length == 6)
         {
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Não parece estar certo...";
             textoFeedback.gameObject.SetActive(true);
         }
         else
         {
+            audioSource.PlayOneShot(somErro); // Toca o som de erro
             textoFeedback.text = "Ainda há números perdidos....";
             textoFeedback.gameObject.SetActive(true);
         }
@@ -71,20 +96,15 @@ public class Puzzle2_sala2 : MonoBehaviour
 
     public void Voltar()
     {
-        SceneManager.LoadScene("Sala I"); // Volta para a cena inicial
-
-        foreach (var campo in camposCodigo)
-        {
-            campo.text = "";
-        }
-
+        SceneManager.LoadScene("Sala II"); // Volta para a cena inicial
 
     }
 
     public void Avancar()
     {
-        SceneManager.LoadScene("Sala I");
+        puzzle.puzzle2_sala2 = true;
         PuzzleProgressManager.Instance.MarkSolved("Puzzle2_Sala2");
+        SceneManager.LoadScene("Sala II"); // Volta para a cena inicial
         Debug.Log("Avançar para a próxima parte do jogo!");
     }
 }

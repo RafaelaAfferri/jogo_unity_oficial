@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class Puzzle1_salaSecreta : MonoBehaviour
 {
 
@@ -20,12 +20,18 @@ public class Puzzle1_salaSecreta : MonoBehaviour
     private bool personResolved = false; // Flag para verificar se o puzzle de pessoas foi resolvido
     private bool symbolResolved = false; // Flag para verificar se o puzzle de símbolos foi resolvido
 
+    private PuzzleSaver puzzle;
+
 
 
     public void Start()
     {
-        botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+        if(puzzle.puzzle1_salaSecreta)
+        {
+            textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
+            botaoAvancar.gameObject.SetActive(false); // Desativa o botão de avançar no início
+        }
+        
     }
 
 
@@ -118,15 +124,14 @@ public class Puzzle1_salaSecreta : MonoBehaviour
 
     public void Voltar()
     {
-        textoFeedback.gameObject.SetActive(false); // Desativa o feedback de resposta incorreta
-
+        SceneManager.LoadScene("Sala Secreta"); // Volta para a sala 2
     }
 
     public void Avancar()
     {
-
-        // Aqui você pode adicionar a lógica para avançar no jogo, como abrir uma porta ou trocar de cena
-        Debug.Log("Avançar para a próxima parte do jogo!");
+        SceneManager.LoadScene("Sala Secreta"); // Volta para a sala 2
+        puzzle.puzzle1_salaSecreta = true; // Marca o puzzle como resolvido
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle1_SalaSecreta"); // Marca o puzzle como resolvido no gerenciador de progresso
     }
 
     public void Dicas()

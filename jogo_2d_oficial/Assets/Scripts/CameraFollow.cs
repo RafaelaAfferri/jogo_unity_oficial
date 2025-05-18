@@ -2,43 +2,30 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    [Header("Alvo a ser seguido")]
     public Transform player;
-    public float minXViewport = 0.4f;
-    public float maxXViewport = 0.6f;
-    public float minYViewport = 0.4f;
-    public float maxYViewport = 0.6f;
-    public float smoothTime = 0.1f;
 
-    private Vector3 velocity = Vector3.zero;
-    private Camera cam;
-    private float halfHeight;
-    private float halfWidth;
+    [Header("Suavização")]
+    [Tooltip("Tempo que a câmera leva para alcançar o alvo")]
+    public float smoothTime = 0.3f;
+
+    private Vector3 _velocity = Vector3.zero;
+    private float _fixedZ;
 
     void Awake()
     {
-        cam = GetComponent<Camera>();
-        halfHeight = cam.orthographicSize;
-        halfWidth = cam.orthographicSize * cam.aspect;
+        // guarda o Z original da câmera para não alterá-lo
+        _fixedZ = transform.position.z;
     }
 
     void LateUpdate()
     {
-        Vector3 viewPos = cam.WorldToViewportPoint(player.position);
-        Vector3 targetPos = transform.position;
+        if (player == null) return;
 
-        if (viewPos.x < minXViewport || viewPos.x > maxXViewport)
-        {
-            float thresholdX = viewPos.x < minXViewport ? minXViewport : maxXViewport;
-            targetPos.x = player.position.x - (thresholdX - 0.5f) * 2f * halfWidth;
-        }
+        // define a posição alvo sempre centralizando o player
+        Vector3 targetPos = new Vector3(player.position.x, player.position.y, _fixedZ);
 
-        if (viewPos.y < minYViewport || viewPos.y > maxYViewport)
-        {
-            float thresholdY = viewPos.y < minYViewport ? minYViewport : maxYViewport;
-            targetPos.y = player.position.y - (thresholdY - 0.5f) * 2f * halfHeight;
-        }
-
-        targetPos.z = transform.position.z;
-        transform.position = Vector3.SmoothDamp(transform.position, targetPos, ref velocity, smoothTime);
+        // move suavemente a câmera até a posição alvo
+        transform.position = Vector3.SmoothDamp(transform.position, targetPos, ref _velocity, smoothTime);
     }
 }

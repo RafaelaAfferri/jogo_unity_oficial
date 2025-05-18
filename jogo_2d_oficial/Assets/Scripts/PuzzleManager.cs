@@ -61,7 +61,7 @@ public class PuzzleManager : MonoBehaviour
 
     public void Avancar(){
         panel.SetActive(false); // Desativa o painel do puzzle
-        // Aqui você pode adicionar a lógica para avançar no jogo, como abrir uma porta ou trocar de cena
+        PuzzleProgressManager.Instance.MarkSolved("Puzzle1_Sala2");
         Debug.Log("Avançar para a próxima parte do jogo!");
     }
 }

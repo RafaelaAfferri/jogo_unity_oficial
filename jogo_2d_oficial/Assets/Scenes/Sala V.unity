@@ -977,6 +977,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5289262219143184071, guid: 5cf6a1600b0670e40a646709777dc78d, type: 3}
+      propertyPath: sceneToLoad
+      value: rafa-sala5-puzzle1
+      objectReference: {fileID: 0}
     - target: {fileID: 5479149718039513241, guid: 5cf6a1600b0670e40a646709777dc78d, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.9256722
@@ -4567,6 +4571,95 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396744158}
   m_CullTransparentMesh: 1
+--- !u!1001 &1523552128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.09715073
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4147812570049988221, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_Name
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: nextScene
+      value: Pos Sala V
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: enterDistance
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: requiredPuzzles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: 'requiredPuzzles.Array.data[0]'
+      value: Puzzle2_Sala4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: 'requiredPuzzles.Array.data[1]'
+      value: Puzzle2_Sala4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176535502587663908, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176535502587663908, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176535502587663908, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2074240029
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
 --- !u!1001 &1543608283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4645,7 +4738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9120873110387499162, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21177,6 +21270,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 145306781}
+  - {fileID: 1523552128}
   - {fileID: 1043135178}
   - {fileID: 1735285070}
   - {fileID: 414613326}

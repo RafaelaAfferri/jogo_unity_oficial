@@ -11,6 +11,8 @@ public class TypewriterWithEnterPrompt : MonoBehaviour
     public float typingSpeed = 0.05f;
     public float startDelay = 1f;
     public string sceneToLoad; // Nome da cena a ser carregada
+    public AudioClip typeSound; // Som da máquina de escrever
+    public AudioSource audioSource; // Fonte de áudio para digitação
 
     public GameObject enterPrompt; // Texto “Pressione ENTER para continuar”
 
@@ -41,6 +43,10 @@ public class TypewriterWithEnterPrompt : MonoBehaviour
         foreach (char c in fullText)
         {
             textMeshPro.text += c;
+            if (!char.IsWhiteSpace(c) && typeSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(typeSound);
+            }
             yield return new WaitForSeconds(typingSpeed);
         }
 

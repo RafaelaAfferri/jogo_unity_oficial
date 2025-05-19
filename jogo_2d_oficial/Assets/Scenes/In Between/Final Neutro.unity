@@ -119,6 +119,135 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &16670705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 16670707}
+  - component: {fileID: 16670706}
+  m_Layer: 0
+  m_Name: Audio Source (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &16670706
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16670705}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.586
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &16670707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16670705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0273795, y: -1.756143, z: 206.30861}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &37344770
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,14 +697,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1188867073}
-  fullText: "O castelo estava em sil\xEAncio novamente.\nMas era um sil\xEAncio diferente
-    \u2014 n\xE3o o que esconde, mas o que resta.\nElyan havia chegado at\xE9 o fim.\nEntre
-    espelhos estilha\xE7ados, nomes riscados e mem\xF3rias que n\xE3o eram suas,
-    ele carregava algo mais pesado que uma espada: a verdade.\n\nAgora, fora dos
-    corredores encantados, a pergunta permanecia...\nO que fazer com ela?"
+  fullText: "Elyan sobreviveu.\nMas sobreviveu ao custo da d\xFAvida. Ele encontrou
+    parte da verdade \u2014 folhas soltas, fragmentos isolados, nomes suspeitos.\nMas
+    n\xE3o o suficiente. O conselho o ouviu. Em parte. Prometeram \u201Cinvestigar\u201D.
+    Prometeram \u201Cavaliar o contexto\u201D.\n\nE ent\xE3o\u2026 sil\xEAncio.\nOs
+    arquivos foram lacrados novamente, agora em pr\xE9dios modernos. A Rosa Negra
+    sumiu dos registros \u2014 mais uma vez. Elyan voltou para casa. Sem reconhecimento.
+    Sem certeza. Apenas com o peso do que poderia ter sido feito. E toda vez que
+    passava por um espelho\u2026\n\u2026ele ainda esperava ver Darius, do outro lado."
   typingSpeed: 0.03
   startDelay: 0
   sceneToLoad: Fragmento Neutro
+  typeSound: {fileID: 8300000, guid: bbe6d3a9689ac6d4fad93a96106e3de3, type: 3}
+  audioSource: {fileID: 16670706}
   enterPrompt: {fileID: 558050466}
 --- !u!114 &1188867073
 MonoBehaviour:
@@ -977,4 +1111,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 1419792322}
   - {fileID: 1837530843}
+  - {fileID: 16670707}
   - {fileID: 37344773}

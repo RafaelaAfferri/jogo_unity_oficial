@@ -510,6 +510,8 @@ MonoBehaviour:
   typingSpeed: 0.03
   startDelay: 0
   sceneToLoad: Sala I
+  typeSound: {fileID: 8300000, guid: bbe6d3a9689ac6d4fad93a96106e3de3, type: 3}
+  audioSource: {fileID: 1176222359}
   enterPrompt: {fileID: 1799533450}
 --- !u!1 &1176222358
 GameObject:
@@ -1150,5 +1152,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 2009980894}
   - {fileID: 1698864214}
-  - {fileID: 1255671138}
   - {fileID: 1176222360}
+  - {fileID: 1255671138}

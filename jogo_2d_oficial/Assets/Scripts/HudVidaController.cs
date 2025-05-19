@@ -68,6 +68,14 @@ public class HudVidaController : MonoBehaviour
         AtualizarHUD();
     }
 
+    void Update()
+    {
+        if (vidasAtuais <= 0)
+        {
+            SceneManager.LoadScene("Game Over");
+        }
+    }
+
     
     
 }

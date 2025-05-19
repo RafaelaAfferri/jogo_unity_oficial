@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 1188867071}
   - component: {fileID: 1188867074}
   - component: {fileID: 1188867073}
-  - component: {fileID: 1188867072}
+  - component: {fileID: 1188867075}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -555,29 +555,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000015259, y: -30}
   m_SizeDelta: {x: 1186.0951, y: 345.6559}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1188867072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1188867070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e238d4ee95c399443a24e62af8d20d31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMeshPro: {fileID: 1188867073}
-  fullText: "A verdade come\xE7a a romper as molduras.\nA pintura restaurada \u2014
-    \xE0 primeira vista, confundida com Helene \u2014 revela seu verdadeiro rosto:
-    Edric Ravencroft.\nO herdeiro renegado. Apagado dos retratos. Riscado dos registros
-    reais.\n\nCada puzzle revelava mais do que solu\xE7\xF5es: mostrava rachaduras
-    no passado.\nDatas foram alteradas. Nomes trocados. Cores ocultas por camadas
-    de verniz e sil\xEAncio."
-  typingSpeed: 0.03
-  startDelay: 0
-  sceneToLoad: Final Frag 4
-  enterPrompt: {fileID: 558050466}
 --- !u!114 &1188867073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,6 +659,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188867070}
   m_CullTransparentMesh: 1
+--- !u!114 &1188867075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188867070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0abefc0df79fbda44b1a86437b54b93a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshPro: {fileID: 1188867073}
+  fullText: "A verdade come\xE7a a romper as molduras.\nA pintura restaurada \u2014
+    \xE0 primeira vista, confundida com Helene \u2014 revela seu verdadeiro rosto:
+    Edric Ravencroft.\nO herdeiro renegado. Apagado dos retratos. Riscado dos registros
+    reais.\n\nCada puzzle revelava mais do que solu\xE7\xF5es: mostrava rachaduras
+    no passado.\nDatas foram alteradas. Nomes trocados. Cores ocultas por camadas
+    de verniz e sil\xEAncio."
+  typingSpeed: 0.03
+  startDelay: 0
+  enterPrompt: {fileID: 558050466}
 --- !u!1 &1419792319
 GameObject:
   m_ObjectHideFlags: 0

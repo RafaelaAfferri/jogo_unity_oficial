@@ -1,5 +1,5 @@
 
-# 🏰 Ecos de Ravencroft
+# Ecos de Ravencroft
 
 **Ecos de Ravencroft** é um jogo investigativo em pixel art com atmosfera sombria e narrativa interativa. Você controla Elyan Barrow, inquisidor do reino de Valdaren, em uma missão para desvendar os segredos do Castelo de Ravencroft — local de rituais, memórias distorcidas e conspirações políticas.
 
@@ -32,6 +32,28 @@ Cada sala representa uma lembrança corrompida — uma verdade esquecida. Confor
 - Descobrir o que realmente aconteceu com Lady Helene e Sir Darius
 - Sobreviver aos rituais da Ordem da Rosa Negra
 - Desvendar toda a verdade antes que a própria memória de Elyan se corrompa...
+
+---
+
+## Respostas dos Puzzles
+
+> **Atenção:** Esta seção contém *spoilers* das soluções dos puzzles.
+
+- **Puzzle 1 (nome da flor):** `rosa`
+- **Puzzle 2 (nomes dos inquisidores):** `thorne`, `armandr`, `elyssa`, `gerald`, `helene`
+- **Relógio:** `75`
+- **Livros (ordem correta):** `312525`
+- **Alavancas:** `OFF - ON - ON - OFF - ON`
+- **Quadros (ligações):** `1 → 2`, `2 → 5`, `5 → 3`
+- **Quadros coloridos (ordem):** `3, 4, 1`
+- **Sala secreta (nomes):** `omirath`, `ludar`, `velkor`, `alzoreg`, `thymon`
+- **Símbolos da sala secreta:** `serpente`, `olho`, `cruz`, `pentagrama`, `espiral`
+- **Sala 5 (vinis):**
+  - 1º vinil: `17 cliques`
+  - 2º vinil: `7 cliques`
+  - 3º vinil: `0 cliques`
+  - 4º vinil: `17 cliques`
+- **Nota musical do puzzle final:** `ré`
 
 ---
 

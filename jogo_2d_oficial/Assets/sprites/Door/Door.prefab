@@ -131,6 +131,7 @@ MonoBehaviour:
   - Puzzle_Sala1
   animator: {fileID: 3936310672466101376}
   openTrigger: OpenDoor
+  openClip: {fileID: 8300000, guid: b195fa5ba2c0d4aeda7396c3fa36b35f, type: 3}
 --- !u!61 &1511407545813926140
 BoxCollider2D:
   m_ObjectHideFlags: 0

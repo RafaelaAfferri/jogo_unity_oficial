@@ -213,7 +213,7 @@ public class Puzzle2_sala4 : MonoBehaviour
 
     public void Voltar()
     {
-        SceneManager.LoadScene("Sala III"); // Volta para a cena inicial
+        SceneManager.LoadScene("Sala IV"); // Volta para a cena inicial
         // Aqui você pode adicionar a lógica para voltar ao jogo, como fechar o painel do puzzle
         Debug.Log("Voltar para a parte anterior do jogo!");
     }

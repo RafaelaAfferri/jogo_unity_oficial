@@ -14,6 +14,8 @@ public class PuzzleSaver : MonoBehaviour
     public bool puzzle3_sala4 = false;
     public bool puzzle1_salaSecreta = false;
 
+    public bool entrouSalaSecreta = false;
+
     public bool puzzle1_sala5 = false;
 
 

@@ -26,7 +26,7 @@ public class EndController : MonoBehaviour
         {
             SceneManager.LoadScene("Final Bom");
         }
-        else if (hudController.vidasAtuais <= 3)
+        else if (hudController.vidasAtuais <= 2)
         {
             SceneManager.LoadScene("Final Ruim");
         }

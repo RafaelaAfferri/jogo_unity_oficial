@@ -1228,10 +1228,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 542693160}
-  minXViewport: 0.3
-  maxXViewport: 0.7
-  minYViewport: 0.3
-  maxYViewport: 0.7
   smoothTime: 0.1
 --- !u!1 &53699204
 GameObject:
@@ -8592,6 +8588,79 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &299024043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.09715073
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4147812570049988221, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_Name
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: nextScene
+      value: Pos Sala VI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: requiredPuzzles.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: 'requiredPuzzles.Array.data[0]'
+      value: Puzzle1_Sala1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176535502587663908, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
 --- !u!1 &301656107
 GameObject:
   m_ObjectHideFlags: 0
@@ -29855,6 +29924,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 688428195549513571, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2967646140913346936, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
       propertyPath: m_Size.x
       value: 0.25
@@ -29890,6 +29963,10 @@ PrefabInstance:
     - target: {fileID: 6745110534669890672, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
       propertyPath: m_GravityScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027367355665397163, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
+      propertyPath: m_Intensity
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 8428554780045033583, guid: a12c4eaad0fa24bb7be7909f217b025b, type: 3}
       propertyPath: m_LocalScale.x
@@ -67055,6 +67132,79 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1812911326
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.09715073
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 260680251082659760, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4147812570049988221, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_Name
+      value: Door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: nextScene
+      value: Pos Sala VI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: requiredPuzzles.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861575107039890753, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: 'requiredPuzzles.Array.data[0]'
+      value: Puzzle1_Sala1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176535502587663908, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 018a18b7f927f4e7297ce22659183e64, type: 3}
 --- !u!1 &1817060685
 GameObject:
   m_ObjectHideFlags: 0
@@ -74235,3 +74385,5 @@ SceneRoots:
   - {fileID: 169243746}
   - {fileID: 661029642}
   - {fileID: 173206489}
+  - {fileID: 299024043}
+  - {fileID: 1812911326}

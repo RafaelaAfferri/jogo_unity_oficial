@@ -1,56 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: d20f2ed2c2b32ef4b9886070840498fc
-=======
-guid: 8d2c7ef293f394c1c86f3b5f46c4ae07
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 3838830587388551728
-    second: '!Fantasy_door5_0'
-  - first:
-      213: -6716077443281009836
-    second: '!Fantasy_door5_1'
-  - first:
-      213: 933994267053161109
-    second: '!Fantasy_door5_2'
-  - first:
-      213: 6399754951875361614
-    second: '!Fantasy_door5_3'
-  - first:
-      213: 3164543492138700246
-    second: '!Fantasy_door5_4'
-  - first:
-      213: -1131587316383167000
-    second: '!Fantasy_door5_5'
-  - first:
-      213: -1154395926981166335
-    second: '!Fantasy_door5_6'
-  - first:
-      213: -6937734812913112144
-    second: '!Fantasy_door5_7'
-  - first:
-      213: 7085448550478145259
-    second: '!Fantasy_door5_8'
-  - first:
-      213: 237547087999903291
-    second: '!Fantasy_door5_9'
-  - first:
-      213: -5977299088362128213
-    second: '!Fantasy_door5_10'
-  - first:
-      213: 6606176966385982322
-    second: '!Fantasy_door5_11'
-  - first:
-      213: -248861946883257824
-    second: '!Fantasy_door5_12'
-  - first:
-      213: -4291657418598133110
-    second: '!Fantasy_door5_13'
-  - first:
-      213: 5320332519086138856
-    second: '!Fantasy_door5_14'
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -83,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -143,27 +94,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
-=======
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -179,19 +114,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 671
-        width: 289
-        height: 82
+        y: 720
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 032e23a8414464530800000000000000
-      internalID: 3838830587388551728
+      spriteID: f1723841fb7536540a4cb7dd2c5fa522
+      internalID: -290266962
       vertices: []
       indices: 
       edges: []
@@ -200,20 +135,20 @@ TextureImporter:
       name: '!Fantasy_door5_1'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 575
-        width: 289
-        height: 82
+        x: 48
+        y: 720
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 453c83d0623bbc2a0800000000000000
-      internalID: -6716077443281009836
+      spriteID: 3ea72ea32cb587c498b874d0a9836c77
+      internalID: 93990386
       vertices: []
       indices: 
       edges: []
@@ -222,20 +157,20 @@ TextureImporter:
       name: '!Fantasy_door5_2'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 479
-        width: 289
-        height: 82
+        x: 96
+        y: 720
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 59a74fd56d636fc00800000000000000
-      internalID: 933994267053161109
+      spriteID: 187d67706e2032a45b245fdb1b6c78b2
+      internalID: -1056782429
       vertices: []
       indices: 
       edges: []
@@ -244,20 +179,20 @@ TextureImporter:
       name: '!Fantasy_door5_3'
       rect:
         serializedVersion: 2
-        x: 5
-        y: 383
-        width: 39
-        height: 74
+        x: 144
+        y: 720
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e4bf31ca83f70d850800000000000000
-      internalID: 6399754951875361614
+      spriteID: 079fee7056dba78499f4596bcb739c3b
+      internalID: 32950164
       vertices: []
       indices: 
       edges: []
@@ -266,20 +201,20 @@ TextureImporter:
       name: '!Fantasy_door5_4'
       rect:
         serializedVersion: 2
-        x: 53
-        y: 383
-        width: 39
-        height: 74
+        x: 192
+        y: 720
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6dd83352a87baeb20800000000000000
-      internalID: 3164543492138700246
+      spriteID: 36373b92a8542564b938de102dc2dce9
+      internalID: -1401778472
       vertices: []
       indices: 
       edges: []
@@ -288,20 +223,20 @@ TextureImporter:
       name: '!Fantasy_door5_5'
       rect:
         serializedVersion: 2
-        x: 101
-        y: 383
-        width: 39
-        height: 74
+        x: 240
+        y: 720
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8edc4a6c45bcb40f0800000000000000
-      internalID: -1131587316383167000
+      spriteID: 02cd7eff892c38c499afadbb32e62200
+      internalID: -154487314
       vertices: []
       indices: 
       edges: []
@@ -310,20 +245,20 @@ TextureImporter:
       name: '!Fantasy_door5_6'
       rect:
         serializedVersion: 2
-        x: 149
-        y: 383
-        width: 39
-        height: 74
+        x: 0
+        y: 672
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 10b312a4503caffe0800000000000000
-      internalID: -1154395926981166335
+      spriteID: b7c80ffa10e344d409bf3fdf26d470ed
+      internalID: -449155620
       vertices: []
       indices: 
       edges: []
@@ -332,20 +267,20 @@ TextureImporter:
       name: '!Fantasy_door5_7'
       rect:
         serializedVersion: 2
-        x: 197
-        y: 383
-        width: 39
-        height: 74
+        x: 48
+        y: 672
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0bbe37202f638bf90800000000000000
-      internalID: -6937734812913112144
+      spriteID: eff1542bee0087d46819aeb42b87ada4
+      internalID: -1066189148
       vertices: []
       indices: 
       edges: []
@@ -354,20 +289,20 @@ TextureImporter:
       name: '!Fantasy_door5_8'
       rect:
         serializedVersion: 2
-        x: 245
-        y: 383
-        width: 39
-        height: 74
+        x: 96
+        y: 672
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be66e859ae1945260800000000000000
-      internalID: 7085448550478145259
+      spriteID: 143e827597c92a84ea86d8f2a85fbe26
+      internalID: 991784328
       vertices: []
       indices: 
       edges: []
@@ -376,20 +311,20 @@ TextureImporter:
       name: '!Fantasy_door5_9'
       rect:
         serializedVersion: 2
-        x: 6
-        y: 286
-        width: 39
-        height: 75
+        x: 144
+        y: 672
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b36a9a561dfeb4300800000000000000
-      internalID: 237547087999903291
+      spriteID: ccd1420167a6e7549826879422c87239
+      internalID: 2002651917
       vertices: []
       indices: 
       edges: []
@@ -398,20 +333,20 @@ TextureImporter:
       name: '!Fantasy_door5_10'
       rect:
         serializedVersion: 2
-        x: 54
-        y: 286
-        width: 39
-        height: 75
+        x: 192
+        y: 672
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bacb8e1f52e5c0da0800000000000000
-      internalID: -5977299088362128213
+      spriteID: a764b24af197da84c95a67dbc660e59d
+      internalID: 1164895165
       vertices: []
       indices: 
       edges: []
@@ -420,20 +355,20 @@ TextureImporter:
       name: '!Fantasy_door5_11'
       rect:
         serializedVersion: 2
-        x: 102
-        y: 286
-        width: 39
-        height: 75
+        x: 240
+        y: 672
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27bddcc23faddab50800000000000000
-      internalID: 6606176966385982322
+      spriteID: 13a6806aa5c443849b9cb439c8138c9b
+      internalID: 912877014
       vertices: []
       indices: 
       edges: []
@@ -442,20 +377,20 @@ TextureImporter:
       name: '!Fantasy_door5_12'
       rect:
         serializedVersion: 2
-        x: 150
-        y: 287
-        width: 39
-        height: 74
+        x: 0
+        y: 624
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02a49e9b06ddb8cf0800000000000000
-      internalID: -248861946883257824
+      spriteID: 2577a5d1e285b684a9cdcfdf33fa25ec
+      internalID: -1054562587
       vertices: []
       indices: 
       edges: []
@@ -464,20 +399,20 @@ TextureImporter:
       name: '!Fantasy_door5_13'
       rect:
         serializedVersion: 2
-        x: 198
-        y: 287
-        width: 39
-        height: 74
+        x: 48
+        y: 624
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a82d9c2e058f074c0800000000000000
-      internalID: -4291657418598133110
+      spriteID: 3172248f209215442a7776cf5e659b7b
+      internalID: -526901550
       vertices: []
       indices: 
       edges: []
@@ -486,20 +421,1076 @@ TextureImporter:
       name: '!Fantasy_door5_14'
       rect:
         serializedVersion: 2
-        x: 246
-        y: 287
-        width: 39
-        height: 74
+        x: 96
+        y: 624
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e5a61fdc3e95d940800000000000000
-      internalID: 5320332519086138856
+      spriteID: 10a9e5d639fa41c4592a37e7476acee8
+      internalID: 1353364227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_15'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ee7529a94be164483cf15da529b9ac
+      internalID: -795638400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_16'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad06c35860095dc43b7b83b065c0a815
+      internalID: 563232157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_17'
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe3eca6d43d0414db496d125225ce75
+      internalID: -1462656296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_18'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b34897260894449bb155ae7ee83f8
+      internalID: -1115287023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_19'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea223abe055b8754e84c958ffe234610
+      internalID: -34034001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_20'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed9212ffb09e2740886e2add04de972
+      internalID: -1283714636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_21'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c52002b5535b3e4faf0f283a72d568f
+      internalID: -1625786113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_22'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b129ba5caad5740b29af5f23fe858b
+      internalID: -1668348494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_23'
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b0d48ea11aadd4b86b650e1aebf8b4
+      internalID: 1536415316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_24'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acf76f1792fa6a4084c282f72e9668d
+      internalID: -418969535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_25'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccdb71a5dd4ba147970905bc5244a41
+      internalID: -1966311233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_26'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b43b6287595880438ba58e10f373c6f
+      internalID: 1467622355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_27'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3460183896b1f994aaf56e887975ce40
+      internalID: 1778199931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_28'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1001929429ad0af47894e6e33137d83e
+      internalID: 678858903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_29'
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75468558b762c2f48a8a5d8fbd8151d0
+      internalID: 777846595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_30'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be6857d094d36840887d0875791c051
+      internalID: 2058064683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_31'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339e26c2e90dd544ebe5e0247776d812
+      internalID: 480546744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_32'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2203a315e5002fe40b997003dab893be
+      internalID: -1455949703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_33'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dff0649eca88949a9285f5bce018e1
+      internalID: -1603407464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_34'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf3ad5f88611b94aa8cf16967fda8e6
+      internalID: 1308139471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_35'
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d596f73bec3db749ac1880dad7fdbf0
+      internalID: -1167477150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_36'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8766677d7feb871449f83aa1bdf8bec1
+      internalID: -359454832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_37'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47067ce5d10618745bf0ea14297e841d
+      internalID: 29612738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_38'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab0d5fd40c9f0b439a1d613c514399c
+      internalID: -388361942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_39'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348f51d09516d3049b664f557b5ca503
+      internalID: -254134364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_40'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6c5a7ba6f7d9343949c36b0dc3b857
+      internalID: -2055162701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_41'
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7149489f98f4546bc37f1e85e160e3
+      internalID: 1467258798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_42'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9588413f142912e42b79fdc3370d92bb
+      internalID: 1355360637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_43'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d52725d77b94549a66fb59ee55e8e8
+      internalID: 2107717005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_44'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558f4a4c21773ec479a5087c89c1ca94
+      internalID: -275793752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_45'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c064a6071e1da6840b88cb6d7330789c
+      internalID: -2006080542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_46'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470da4342aeccfe47bc4c563c94a53fc
+      internalID: -2046559751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_47'
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb27b5bd78d42241a54d77f4c7f4b68
+      internalID: 450752295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_48'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbbf8547c908594da56e01e167bde03
+      internalID: -1742761982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_49'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b05d74a18a4f947a0bd13cb2066b28
+      internalID: -548482676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_50'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb78629780725640b0fb6eb1ec81a6a
+      internalID: 1292831616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_51'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffe758b4773b3d42808f6e32e7876a3
+      internalID: 1600099510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_52'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1be1ef716ea504abb236d935cb8d07
+      internalID: -1973659964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_53'
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d491d920632fd4e8744eddc7951acb
+      internalID: -1143512919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_54'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dfe0cfd39de984ba96167d4e46ff7c
+      internalID: 1937502965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_55'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758aa761e6364694990832941940eaa4
+      internalID: 1304509801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_56'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7ce43c287ea3f4cb9dafff4b09afe8
+      internalID: -135644116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_57'
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eaafea9c8c512479c61ef395f97342
+      internalID: 646097946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_58'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201a035598df72948a46e822880ff1c3
+      internalID: -1618908197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_59'
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef78d58078123e47a3a2c426a439bea
+      internalID: -1374901094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_60'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41665e6f3a6c7044b9c58b3b3d9ccf9
+      internalID: 1696334514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_61'
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a6a808b1defb6428d5090aa7749c07
+      internalID: -1706135256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_door5_62'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab52e9732cf1e7d49b38f46c1cf4d5c0
+      internalID: 1371786740
       vertices: []
       indices: 
       edges: []
@@ -508,7 +1499,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1abfa20f3535e77499e2eb4401eb86ce
     internalID: 0
     vertices: []
     indices: 
@@ -517,26 +1508,70 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable:
-      '!Fantasy_door5_0': 3838830587388551728
-      '!Fantasy_door5_1': -6716077443281009836
-      '!Fantasy_door5_10': -5977299088362128213
-      '!Fantasy_door5_11': 6606176966385982322
-      '!Fantasy_door5_12': -248861946883257824
-      '!Fantasy_door5_13': -4291657418598133110
-      '!Fantasy_door5_14': 5320332519086138856
-      '!Fantasy_door5_2': 933994267053161109
-      '!Fantasy_door5_3': 6399754951875361614
-      '!Fantasy_door5_4': 3164543492138700246
-      '!Fantasy_door5_5': -1131587316383167000
-      '!Fantasy_door5_6': -1154395926981166335
-      '!Fantasy_door5_7': -6937734812913112144
-      '!Fantasy_door5_8': 7085448550478145259
-      '!Fantasy_door5_9': 237547087999903291
-=======
-    nameFileIdTable: {}
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+      '!Fantasy_door5_0': -290266962
+      '!Fantasy_door5_1': 93990386
+      '!Fantasy_door5_10': 1164895165
+      '!Fantasy_door5_11': 912877014
+      '!Fantasy_door5_12': -1054562587
+      '!Fantasy_door5_13': -526901550
+      '!Fantasy_door5_14': 1353364227
+      '!Fantasy_door5_15': -795638400
+      '!Fantasy_door5_16': 563232157
+      '!Fantasy_door5_17': -1462656296
+      '!Fantasy_door5_18': -1115287023
+      '!Fantasy_door5_19': -34034001
+      '!Fantasy_door5_2': -1056782429
+      '!Fantasy_door5_20': -1283714636
+      '!Fantasy_door5_21': -1625786113
+      '!Fantasy_door5_22': -1668348494
+      '!Fantasy_door5_23': 1536415316
+      '!Fantasy_door5_24': -418969535
+      '!Fantasy_door5_25': -1966311233
+      '!Fantasy_door5_26': 1467622355
+      '!Fantasy_door5_27': 1778199931
+      '!Fantasy_door5_28': 678858903
+      '!Fantasy_door5_29': 777846595
+      '!Fantasy_door5_3': 32950164
+      '!Fantasy_door5_30': 2058064683
+      '!Fantasy_door5_31': 480546744
+      '!Fantasy_door5_32': -1455949703
+      '!Fantasy_door5_33': -1603407464
+      '!Fantasy_door5_34': 1308139471
+      '!Fantasy_door5_35': -1167477150
+      '!Fantasy_door5_36': -359454832
+      '!Fantasy_door5_37': 29612738
+      '!Fantasy_door5_38': -388361942
+      '!Fantasy_door5_39': -254134364
+      '!Fantasy_door5_4': -1401778472
+      '!Fantasy_door5_40': -2055162701
+      '!Fantasy_door5_41': 1467258798
+      '!Fantasy_door5_42': 1355360637
+      '!Fantasy_door5_43': 2107717005
+      '!Fantasy_door5_44': -275793752
+      '!Fantasy_door5_45': -2006080542
+      '!Fantasy_door5_46': -2046559751
+      '!Fantasy_door5_47': 450752295
+      '!Fantasy_door5_48': -1742761982
+      '!Fantasy_door5_49': -548482676
+      '!Fantasy_door5_5': -154487314
+      '!Fantasy_door5_50': 1292831616
+      '!Fantasy_door5_51': 1600099510
+      '!Fantasy_door5_52': -1973659964
+      '!Fantasy_door5_53': -1143512919
+      '!Fantasy_door5_54': 1937502965
+      '!Fantasy_door5_55': 1304509801
+      '!Fantasy_door5_56': -135644116
+      '!Fantasy_door5_57': 646097946
+      '!Fantasy_door5_58': -1618908197
+      '!Fantasy_door5_59': -1374901094
+      '!Fantasy_door5_6': -449155620
+      '!Fantasy_door5_60': 1696334514
+      '!Fantasy_door5_61': -1706135256
+      '!Fantasy_door5_62': 1371786740
+      '!Fantasy_door5_7': -1066189148
+      '!Fantasy_door5_8': 991784328
+      '!Fantasy_door5_9': 2002651917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

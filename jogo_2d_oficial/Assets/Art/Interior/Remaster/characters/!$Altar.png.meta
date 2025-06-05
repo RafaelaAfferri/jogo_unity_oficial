@@ -1,59 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 8f6d074dceeda984d8e6acc68edd98a9
-=======
-guid: 71348091a4e484a43a4341204fdb3725
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8337638380766304850
-    second: '!$Altar_0'
-  - first:
-      213: 2360410408967004308
-    second: '!$Altar_1'
-  - first:
-      213: -5108571082800672049
-    second: '!$Altar_2'
-  - first:
-      213: 4617082495434196258
-    second: '!$Altar_3'
-  - first:
-      213: 6058725135168659649
-    second: '!$Altar_4'
-  - first:
-      213: -7534019500206771454
-    second: '!$Altar_5'
-  - first:
-      213: -6875126861357552961
-    second: '!$Altar_6'
-  - first:
-      213: 5355792713233582164
-    second: '!$Altar_7'
-  - first:
-      213: 3761821683754206784
-    second: '!$Altar_8'
-  - first:
-      213: 2418154286376715116
-    second: '!$Altar_9'
-  - first:
-      213: -354659876106948219
-    second: '!$Altar_10'
-  - first:
-      213: 3197504151467369493
-    second: '!$Altar_11'
-  - first:
-      213: -7402318192052557639
-    second: '!$Altar_12'
-  - first:
-      213: -2642986208880386429
-    second: '!$Altar_13'
-  - first:
-      213: -5274704130983315267
-    second: '!$Altar_14'
-  - first:
-      213: 7183904974261947969
-    second: '!$Altar_15'
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -86,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -100,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -146,27 +94,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
-=======
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -181,20 +113,20 @@ TextureImporter:
       name: '!$Altar_0'
       rect:
         serializedVersion: 2
-        x: 25
-        y: 431
-        width: 88
-        height: 98
+        x: 216
+        y: 527
+        width: 32
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25a1d3fbeed35b370800000000000000
-      internalID: 8337638380766304850
+      spriteID: b1ae436f8eaea1d4196c6f5b4c265891
+      internalID: 277046486
       vertices: []
       indices: 
       edges: []
@@ -203,20 +135,20 @@ TextureImporter:
       name: '!$Altar_1'
       rect:
         serializedVersion: 2
-        x: 169
-        y: 431
-        width: 88
-        height: 98
+        x: 362
+        y: 529
+        width: 28
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 490ec9ec2ccd1c020800000000000000
-      internalID: 2360410408967004308
+      spriteID: cbf3badfe002b784cba5e0337d61c455
+      internalID: -1769003719
       vertices: []
       indices: 
       edges: []
@@ -225,20 +157,20 @@ TextureImporter:
       name: '!$Altar_2'
       rect:
         serializedVersion: 2
-        x: 215
-        y: 526
-        width: 34
-        height: 11
+        x: 26
+        y: 432
+        width: 86
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc255d3aaa5ba19b0800000000000000
-      internalID: -5108571082800672049
+      spriteID: 6cdd55f612597e24b803c51fbdc542cd
+      internalID: -705362285
       vertices: []
       indices: 
       edges: []
@@ -247,20 +179,20 @@ TextureImporter:
       name: '!$Altar_3'
       rect:
         serializedVersion: 2
-        x: 313
-        y: 431
-        width: 96
-        height: 98
+        x: 170
+        y: 432
+        width: 86
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2258707311c231040800000000000000
-      internalID: 4617082495434196258
+      spriteID: c8b6805334de52a4ca4bcb4947adc34a
+      internalID: 680792327
       vertices: []
       indices: 
       edges: []
@@ -269,20 +201,20 @@ TextureImporter:
       name: '!$Altar_4'
       rect:
         serializedVersion: 2
-        x: 361
-        y: 528
-        width: 30
-        height: 9
+        x: 314
+        y: 432
+        width: 94
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c06571f86ae41450800000000000000
-      internalID: 6058725135168659649
+      spriteID: 8fdea489445f8a146a0be90772380f8b
+      internalID: 108408869
       vertices: []
       indices: 
       edges: []
@@ -291,20 +223,20 @@ TextureImporter:
       name: '!$Altar_5'
       rect:
         serializedVersion: 2
-        x: 25
-        y: 305
-        width: 9
-        height: 54
+        x: 26
+        y: 306
+        width: 7
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2033f477e29c17790800000000000000
-      internalID: -7534019500206771454
+      spriteID: 023e922b2a1637042a2fdac673b258cb
+      internalID: 535880815
       vertices: []
       indices: 
       edges: []
@@ -313,20 +245,20 @@ TextureImporter:
       name: '!$Altar_6'
       rect:
         serializedVersion: 2
-        x: 33
-        y: 287
-        width: 83
-        height: 106
+        x: 34
+        y: 288
+        width: 81
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fba690bab84a690a0800000000000000
-      internalID: -6875126861357552961
+      spriteID: fbcd832aba6e40c4186c9746253a6e24
+      internalID: 875875383
       vertices: []
       indices: 
       edges: []
@@ -335,20 +267,20 @@ TextureImporter:
       name: '!$Altar_7'
       rect:
         serializedVersion: 2
-        x: 169
-        y: 305
-        width: 9
-        height: 54
+        x: 170
+        y: 306
+        width: 7
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 458c9e2b819935a40800000000000000
-      internalID: 5355792713233582164
+      spriteID: e8245af92dbd1784bb538544ace793ed
+      internalID: -1237686999
       vertices: []
       indices: 
       edges: []
@@ -357,20 +289,20 @@ TextureImporter:
       name: '!$Altar_8'
       rect:
         serializedVersion: 2
-        x: 177
-        y: 287
-        width: 82
-        height: 106
+        x: 178
+        y: 288
+        width: 80
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0460880f3eca43430800000000000000
-      internalID: 3761821683754206784
+      spriteID: 664589d4d7d7b174587a36274d58ffd2
+      internalID: -959581090
       vertices: []
       indices: 
       edges: []
@@ -379,20 +311,20 @@ TextureImporter:
       name: '!$Altar_9'
       rect:
         serializedVersion: 2
-        x: 313
-        y: 305
-        width: 9
-        height: 54
+        x: 314
+        y: 306
+        width: 7
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c638293f2820f8120800000000000000
-      internalID: 2418154286376715116
+      spriteID: c42bb20e7f089344fad3a18530e43cf0
+      internalID: -91314685
       vertices: []
       indices: 
       edges: []
@@ -401,20 +333,20 @@ TextureImporter:
       name: '!$Altar_10'
       rect:
         serializedVersion: 2
-        x: 321
-        y: 287
-        width: 88
-        height: 106
+        x: 322
+        y: 288
+        width: 86
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 581bf84c8bef31bf0800000000000000
-      internalID: -354659876106948219
+      spriteID: 7adb09df4b9c1bd4183a7828adab1273
+      internalID: -891362112
       vertices: []
       indices: 
       edges: []
@@ -423,20 +355,20 @@ TextureImporter:
       name: '!$Altar_11'
       rect:
         serializedVersion: 2
-        x: 25
-        y: 143
-        width: 91
-        height: 106
+        x: 26
+        y: 144
+        width: 89
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 514ac0ca511df5c20800000000000000
-      internalID: 3197504151467369493
+      spriteID: 94fe9effdf65f5b439a8cd3fad1759e9
+      internalID: -1500904923
       vertices: []
       indices: 
       edges: []
@@ -445,20 +377,20 @@ TextureImporter:
       name: '!$Altar_12'
       rect:
         serializedVersion: 2
-        x: 169
-        y: 143
-        width: 90
-        height: 106
+        x: 170
+        y: 144
+        width: 88
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b8ab40d2dea54990800000000000000
-      internalID: -7402318192052557639
+      spriteID: a902ce91e9b333c4aa3810650501d271
+      internalID: -1101363282
       vertices: []
       indices: 
       edges: []
@@ -467,20 +399,20 @@ TextureImporter:
       name: '!$Altar_13'
       rect:
         serializedVersion: 2
-        x: 215
-        y: 239
-        width: 34
-        height: 11
+        x: 216
+        y: 240
+        width: 32
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 38e9d61db0a325bd0800000000000000
-      internalID: -2642986208880386429
+      spriteID: 11947be2294c28d43aeec9f1de7cbe8c
+      internalID: 389077453
       vertices: []
       indices: 
       edges: []
@@ -489,20 +421,20 @@ TextureImporter:
       name: '!$Altar_14'
       rect:
         serializedVersion: 2
-        x: 313
-        y: 143
-        width: 96
-        height: 106
+        x: 314
+        y: 144
+        width: 94
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db834791a8c7cc6b0800000000000000
-      internalID: -5274704130983315267
+      spriteID: 279503ce011f9a745a436db55a35e504
+      internalID: 299710062
       vertices: []
       indices: 
       edges: []
@@ -511,20 +443,20 @@ TextureImporter:
       name: '!$Altar_15'
       rect:
         serializedVersion: 2
-        x: 361
-        y: 243
-        width: 30
-        height: 9
+        x: 362
+        y: 244
+        width: 28
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14e8b0b138b52b360800000000000000
-      internalID: 7183904974261947969
+      spriteID: f8eaaba4ddbc7a845aa50c416f9bc836
+      internalID: -141550671
       vertices: []
       indices: 
       edges: []
@@ -533,7 +465,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4439b1fbbe0b9b045bdb342ce3e258b1
     internalID: 0
     vertices: []
     indices: 
@@ -542,27 +474,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable:
-      '!$Altar_0': 8337638380766304850
-      '!$Altar_1': 2360410408967004308
-      '!$Altar_10': -354659876106948219
-      '!$Altar_11': 3197504151467369493
-      '!$Altar_12': -7402318192052557639
-      '!$Altar_13': -2642986208880386429
-      '!$Altar_14': -5274704130983315267
-      '!$Altar_15': 7183904974261947969
-      '!$Altar_2': -5108571082800672049
-      '!$Altar_3': 4617082495434196258
-      '!$Altar_4': 6058725135168659649
-      '!$Altar_5': -7534019500206771454
-      '!$Altar_6': -6875126861357552961
-      '!$Altar_7': 5355792713233582164
-      '!$Altar_8': 3761821683754206784
-      '!$Altar_9': 2418154286376715116
-=======
-    nameFileIdTable: {}
->>>>>>> 4826b450c3487bc128473dfe6f9cc55e280872f8
+      '!$Altar_0': 277046486
+      '!$Altar_1': -1769003719
+      '!$Altar_10': -891362112
+      '!$Altar_11': -1500904923
+      '!$Altar_12': -1101363282
+      '!$Altar_13': 389077453
+      '!$Altar_14': 299710062
+      '!$Altar_15': -141550671
+      '!$Altar_2': -705362285
+      '!$Altar_3': 680792327
+      '!$Altar_4': 108408869
+      '!$Altar_5': 535880815
+      '!$Altar_6': 875875383
+      '!$Altar_7': -1237686999
+      '!$Altar_8': -959581090
+      '!$Altar_9': -91314685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
